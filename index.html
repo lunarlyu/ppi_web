@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore STRING protein-protein interactions as an interactive star map."
+    />
+    <title>STRING PPI Star Map</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell" aria-live="polite">
+      <section class="control-panel" aria-label="STRING interaction controls">
+        <div>
+          <span class="eyebrow">STRING Protein-Protein Interaction</span>
+          <h1>Star map for a protein of interest</h1>
+        </div>
+
+        <form id="search-form" class="search-card">
+          <label for="protein-input">Interested protein</label>
+          <div class="search-row">
+            <input
+              id="protein-input"
+              name="protein"
+              type="search"
+              value="TP53"
+              placeholder="TP53, EGFR, BRCA1..."
+              list="protein-suggestions"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <datalist id="protein-suggestions"></datalist>
+            <button type="submit">Search</button>
+          </div>
+        </form>
+
+        <section class="filters" aria-label="Filters">
+          <div class="filter-heading">
+            <div>
+              <span class="eyebrow">Filters</span>
+              <h2>Confidence window</h2>
+            </div>
+            <button id="apply-filters" type="button" class="ghost-button">
+              Apply
+            </button>
+          </div>
+
+          <label class="range-control" for="min-score">
+            <span>
+              Minimum score
+              <strong id="min-score-value">0.99</strong>
+            </span>
+            <input
+              id="min-score"
+              type="range"
+              min="0"
+              max="1"
+              step="0.01"
+              value="0.99"
+            />
+          </label>
+
+          <label class="range-control" for="max-score">
+            <span>
+              Maximum score
+              <strong id="max-score-value">1.00</strong>
+            </span>
+            <input
+              id="max-score"
+              type="range"
+              min="0"
+              max="1"
+              step="0.01"
+              value="1"
+            />
+          </label>
+
+          <div class="filter-heading compact">
+            <div>
+              <span class="eyebrow">DepMap</span>
+              <h2>Mean Chronos score</h2>
+              <small>lower score = stronger dependency</small>
+            </div>
+          </div>
+
+          <label class="range-control" for="chronos-min">
+            <span>
+              Lower bound
+              <strong id="chronos-min-value">-2.00</strong>
+            </span>
+            <input
+              id="chronos-min"
+              type="range"
+              min="-2"
+              max="1"
+              step="0.05"
+              value="-2"
+            />
+          </label>
+
+          <label class="range-control" for="chronos-max">
+            <span>
+              Upper bound
+              <strong id="chronos-max-value">1.00</strong>
+            </span>
+            <input
+              id="chronos-max"
+              type="range"
+              min="-2"
+              max="1"
+              step="0.05"
+              value="1"
+            />
+          </label>
+
+          <label class="toggle-row" for="essential-only">
+            <span>
+              <strong>Only essential proteins</strong>
+              <small>local DepMap Chronos/CERES dependency list</small>
+            </span>
+            <input id="essential-only" type="checkbox" />
+          </label>
+        </section>
+
+        <section class="status-panel" aria-label="Network summary">
+          <div>
+            <span id="visible-count">0</span>
+            <small>visible partners</small>
+          </div>
+          <div>
+            <span id="score-span">0.99-1.00</span>
+            <small>score range</small>
+          </div>
+          <div>
+            <span id="chronos-span">all</span>
+            <small>mean Chronos</small>
+          </div>
+          <div>
+            <span id="data-source">STRING API</span>
+            <small>data source</small>
+          </div>
+        </section>
+      </section>
+
+      <section class="visual-stage">
+        <div class="graph-toolbar">
+          <div>
+            <span class="eyebrow">Network</span>
+            <h2 id="graph-title">TP53 interactions</h2>
+          </div>
+          <div id="loading-pill" class="loading-pill" hidden>Loading STRING</div>
+        </div>
+
+        <div class="graph-wrap">
+          <svg
+            id="ppi-graph"
+            role="img"
+            aria-label="Star map of STRING protein interactions"
+          ></svg>
+          <div id="empty-state" class="empty-state" hidden>
+            <strong>No interactions match these filters</strong>
+            <span>Try widening the score window or turning off essential-only.</span>
+          </div>
+        </div>
+      </section>
+
+      <aside class="detail-panel" aria-label="Selected interaction details">
+        <div>
+          <span class="eyebrow">Selected edge</span>
+          <h2 id="detail-title">Pick a bubble</h2>
+          <p id="detail-copy">
+            Click any partner to inspect its STRING score and evidence channels.
+          </p>
+        </div>
+        <div id="detail-bars" class="detail-bars"></div>
+        <div id="top-list" class="top-list"></div>
+      </aside>
+    </main>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>

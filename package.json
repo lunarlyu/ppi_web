@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build_site.mjs"
+  }
+}
+

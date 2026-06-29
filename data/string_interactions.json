@@ -1,0 +1,7603 @@
+{
+  "meta": {
+    "description": "Processed STRING interaction cache for the static PPI star map.",
+    "species": 9606,
+    "required_score": 700,
+    "limit_per_seed": 80,
+    "seed_proteins": [
+      "TP53",
+      "EGFR",
+      "BRCA1",
+      "MYC",
+      "AKT1",
+      "MTOR"
+    ],
+    "source": "STRING interaction_partners API"
+  },
+  "interactions": [
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000497733",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CDC42",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.092,
+        "escore": 0.11,
+        "dscore": 0.0,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000368880",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "FOXO1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.881,
+        "dscore": 0.9,
+        "tscore": 0.94
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000335153",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "HSP90AA1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.883,
+        "dscore": 0.9,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000360609",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "HSP90AB1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.626,
+        "dscore": 0.9,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000258149",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "MDM2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.891,
+        "dscore": 0.9,
+        "tscore": 0.98
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000354558",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "MTOR",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.925,
+        "dscore": 0.9,
+        "tscore": 0.954
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000344220",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PDPK1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.082,
+        "ascore": 0.095,
+        "escore": 0.918,
+        "dscore": 0.9,
+        "tscore": 0.926
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000262719",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PHLPP1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.638,
+        "dscore": 0.9,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000369857",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ABRAXAS1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.056,
+        "escore": 0.994,
+        "dscore": 0.9,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000278616",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ATM",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.847,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000352408",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BABAM1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.994,
+        "dscore": 0.9,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000343412",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BABAM2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.783,
+        "dscore": 0.9,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000260947",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BARD1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.201,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000369497",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BRCA2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.383,
+        "escore": 0.896,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000358474",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BRCC3",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.85,
+        "dscore": 0.9,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000259008",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BRIP1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.38,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000372023",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "CHEK2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.218,
+        "escore": 0.842,
+        "dscore": 0.5,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000405330",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ESR1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.904,
+        "dscore": 0.0,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000287647",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "FANCD2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.472,
+        "escore": 0.779,
+        "dscore": 0.54,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000434024",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "H2AX",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.084,
+        "escore": 0.9,
+        "dscore": 0.5,
+        "tscore": 0.983
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000365588",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "MDC1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.104,
+        "escore": 0.833,
+        "dscore": 0.5,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000325863",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "MRE11",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.174,
+        "escore": 0.994,
+        "dscore": 0.54,
+        "tscore": 0.973
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000478887",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "MYC",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.825,
+        "dscore": 0.0,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000261584",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "PALB2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.097,
+        "escore": 0.944,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000368100",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RAD50",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.072,
+        "escore": 0.994,
+        "dscore": 0.54,
+        "tscore": 0.762
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000493712",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RAD51",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.501,
+        "escore": 0.923,
+        "dscore": 0.8,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000382628",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RBBP8",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.122,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000260810",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "TOPBP1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.28,
+        "escore": 0.994,
+        "dscore": 0.54,
+        "tscore": 0.9
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000371475",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "TP53BP1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.05,
+        "escore": 0.826,
+        "dscore": 0.5,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000421926",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "UIMC1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.994,
+        "dscore": 0.9,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000379097",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "AREG",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.777,
+        "dscore": 0.9,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000379092",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "BTC",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.684,
+        "dscore": 0.9,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000339191",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CAV1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.206,
+        "escore": 0.882,
+        "dscore": 0.8,
+        "tscore": 0.986
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000264033",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CBL",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.996,
+        "dscore": 0.9,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000261769",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CDH1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.815,
+        "dscore": 0.0,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000052754",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "DCN",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.083,
+        "escore": 0.537,
+        "dscore": 0.9,
+        "tscore": 0.986
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000265171",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "EGF",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.128,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000411898",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "EPGN",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.958,
+        "dscore": 0.4,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000269571",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "ERBB2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.064,
+        "ascore": 0.08,
+        "escore": 0.998,
+        "dscore": 0.9,
+        "tscore": 0.983
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000267101",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "ERBB3",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.061,
+        "ascore": 0.042,
+        "escore": 0.986,
+        "dscore": 0.8,
+        "tscore": 0.984
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000244869",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "EREG",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.966,
+        "dscore": 0.9,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000262995",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "GAB1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.877,
+        "dscore": 0.9,
+        "tscore": 0.986
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000376345",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "GRB2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.996,
+        "dscore": 0.9,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000230990",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "HBEGF",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.812,
+        "dscore": 0.9,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000335153",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "HSP90AA1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.854,
+        "dscore": 0.5,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000484824",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "MUC1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.835,
+        "dscore": 0.0,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000287842",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "NRG1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.79,
+        "dscore": 0.9,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000263967",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PIK3CA",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.79,
+        "dscore": 0.9,
+        "tscore": 0.976
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000341189",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PTK2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.994,
+        "dscore": 0.9,
+        "tscore": 0.926
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000489597",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PTPN11",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.995,
+        "dscore": 0.9,
+        "tscore": 0.991
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000401303",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SHC1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.995,
+        "dscore": 0.9,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000384675",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SOS1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.994,
+        "dscore": 0.9,
+        "tscore": 0.942
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000362680",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SRC",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.928,
+        "dscore": 0.9,
+        "tscore": 0.988
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000404131",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "TGFA",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.062,
+        "escore": 0.983,
+        "dscore": 0.9,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000375711",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "AKT1S1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.985,
+        "dscore": 0.9,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000286234",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "DEPTOR",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.972,
+        "dscore": 0.9,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000340691",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "EIF4EBP1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.992,
+        "dscore": 0.9,
+        "tscore": 0.952
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000383003",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "FKBP1A",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.993,
+        "dscore": 0.0,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000265960",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "MAPKAP1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.999,
+        "dscore": 0.8,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000457870",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "MLST8",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000384848",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRR5",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.51,
+        "dscore": 0.9,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000262187",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RHEB",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.975,
+        "dscore": 0.9,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000296782",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RICTOR",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.063,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000225577",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RPS6KB1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.995,
+        "dscore": 0.9,
+        "tscore": 0.977
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000307272",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RPTOR",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.301,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000369899",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RRAGA",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.057,
+        "escore": 0.962,
+        "dscore": 0.9,
+        "tscore": 0.868
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000262850",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RRAGB",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.997,
+        "dscore": 0.9,
+        "tscore": 0.886
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000362092",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RRAGC",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.058,
+        "escore": 0.998,
+        "dscore": 0.9,
+        "tscore": 0.901
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000262319",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TELO2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.061,
+        "escore": 0.996,
+        "dscore": 0.9,
+        "tscore": 0.745
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000362547",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TTI1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.147,
+        "escore": 0.994,
+        "dscore": 0.9,
+        "tscore": 0.938
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000324560",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "ULK1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.877,
+        "dscore": 0.9,
+        "tscore": 0.972
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000316779",
+      "preferredName_A": "MYC",
+      "preferredName_B": "BIN1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.975,
+        "dscore": 0.54,
+        "tscore": 0.989
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000263253",
+      "preferredName_A": "MYC",
+      "preferredName_B": "EP300",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.783,
+        "dscore": 0.5,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000474725",
+      "preferredName_A": "MYC",
+      "preferredName_B": "FBXW7",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.998,
+        "dscore": 0.0,
+        "tscore": 0.935
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000351490",
+      "preferredName_A": "MYC",
+      "preferredName_B": "MAX",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.047,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.987
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000352925",
+      "preferredName_A": "MYC",
+      "preferredName_B": "TRRAP",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.061,
+        "escore": 0.875,
+        "dscore": 0.0,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000364885",
+      "preferredName_A": "MYC",
+      "preferredName_B": "ZBTB17",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.868,
+        "dscore": 0.9,
+        "tscore": 0.976
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000278616",
+      "preferredName_A": "TP53",
+      "preferredName_B": "ATM",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.103,
+        "escore": 0.928,
+        "dscore": 0.9,
+        "tscore": 0.975
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000381185",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BCL2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.103,
+        "escore": 0.869,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000365230",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BCL2L1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.986,
+        "dscore": 0.0,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000418960",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BRCA1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.895,
+        "dscore": 0.5,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000384849",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CDKN1A",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.925,
+        "dscore": 0.9,
+        "tscore": 0.96
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000418915",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CDKN2A",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.874,
+        "dscore": 0.9,
+        "tscore": 0.97
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000372023",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CHEK2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.072,
+        "escore": 0.833,
+        "dscore": 0.75,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000262367",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CREBBP",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.998,
+        "dscore": 0.9,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000266000",
+      "preferredName_A": "TP53",
+      "preferredName_B": "DAXX",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.122,
+        "escore": 0.895,
+        "dscore": 0.9,
+        "tscore": 0.952
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000263253",
+      "preferredName_A": "TP53",
+      "preferredName_B": "EP300",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000362649",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HDAC1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.109,
+        "escore": 0.924,
+        "dscore": 0.5,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000437955",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HIF1A",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.847,
+        "dscore": 0.0,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000385571",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HIPK2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.867,
+        "dscore": 0.9,
+        "tscore": 0.934
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000335153",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HSP90AA1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.903,
+        "dscore": 0.0,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000258149",
+      "preferredName_A": "TP53",
+      "preferredName_B": "MDM2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.116,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.999
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000356150",
+      "preferredName_A": "TP53",
+      "preferredName_B": "MDM4",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.093,
+        "escore": 0.999,
+        "dscore": 0.9,
+        "tscore": 0.998
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000354218",
+      "preferredName_A": "TP53",
+      "preferredName_B": "PPP1R13L",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.984,
+        "dscore": 0.5,
+        "tscore": 0.91
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000361021",
+      "preferredName_A": "TP53",
+      "preferredName_B": "PTEN",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.748,
+        "dscore": 0.9,
+        "tscore": 0.968
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000493712",
+      "preferredName_A": "TP53",
+      "preferredName_B": "RAD51",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.135,
+        "escore": 0.884,
+        "dscore": 0.0,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000254719",
+      "preferredName_A": "TP53",
+      "preferredName_B": "RPA1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.117,
+        "escore": 0.982,
+        "dscore": 0.4,
+        "tscore": 0.932
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000340989",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SFN",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.981,
+        "dscore": 0.75,
+        "tscore": 0.859
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000212015",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SIRT1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.886,
+        "dscore": 0.9,
+        "tscore": 0.99
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000371475",
+      "preferredName_A": "TP53",
+      "preferredName_B": "TP53BP1",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.993,
+        "dscore": 0.0,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000341957",
+      "preferredName_A": "TP53",
+      "preferredName_B": "TP53BP2",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.988,
+        "dscore": 0.5,
+        "tscore": 0.996
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000497594",
+      "preferredName_A": "TP53",
+      "preferredName_B": "UBE3A",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.923,
+        "dscore": 0.9,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000343535",
+      "preferredName_A": "TP53",
+      "preferredName_B": "USP7",
+      "score": 0.999,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.975,
+        "dscore": 0.9,
+        "tscore": 0.973
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000339527",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "FOXO3",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.103,
+        "escore": 0.853,
+        "dscore": 0.9,
+        "tscore": 0.928
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000379975",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "ILK",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.139,
+        "escore": 0.749,
+        "dscore": 0.9,
+        "tscore": 0.932
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000263967",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PIK3CA",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.738,
+        "dscore": 0.9,
+        "tscore": 0.951
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000415416",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "TRIB3",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.003,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.651,
+        "dscore": 0.9,
+        "tscore": 0.965
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000243644",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ZNF350",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.786,
+        "dscore": 0.0,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000398632",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CD44",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.072,
+        "escore": 0.785,
+        "dscore": 0.0,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000495360",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CTNNB1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.064,
+        "escore": 0.718,
+        "dscore": 0.9,
+        "tscore": 0.94
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000360609",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "HSP90AB1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.054,
+        "escore": 0.837,
+        "dscore": 0.0,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000261799",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PDGFRB",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.093,
+        "escore": 0.558,
+        "dscore": 0.9,
+        "tscore": 0.971
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000428056",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PIK3R1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.9,
+        "dscore": 0.9,
+        "tscore": 0.901
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000216373",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SOS2",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.857,
+        "dscore": 0.9,
+        "tscore": 0.902
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000264657",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "STAT3",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.925,
+        "dscore": 0.0,
+        "tscore": 0.985
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000341208",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "STAT5A",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.836,
+        "dscore": 0.9,
+        "tscore": 0.932
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000335153",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "HSP90AA1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.095,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.794
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000360609",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "HSP90AB1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.103,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.784
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000418915",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDKN2A",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.783,
+        "dscore": 0.9,
+        "tscore": 0.929
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000216911",
+      "preferredName_A": "TP53",
+      "preferredName_B": "AURKA",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.116,
+        "escore": 0.81,
+        "dscore": 0.75,
+        "tscore": 0.978
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000344635",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CCNG1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.117,
+        "escore": 0.525,
+        "dscore": 0.75,
+        "tscore": 0.983
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000387699",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CREB1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.776,
+        "dscore": 0.0,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000339527",
+      "preferredName_A": "TP53",
+      "preferredName_B": "FOXO3",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.776,
+        "dscore": 0.0,
+        "tscore": 0.991
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000297185",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HSPA9",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.05,
+        "escore": 0.836,
+        "dscore": 0.0,
+        "tscore": 0.99
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000347184",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HTT",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.307,
+        "dscore": 0.8,
+        "tscore": 0.989
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000215832",
+      "preferredName_A": "TP53",
+      "preferredName_B": "MAPK1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.045,
+        "escore": 0.806,
+        "dscore": 0.9,
+        "tscore": 0.912
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000497916",
+      "preferredName_A": "TP53",
+      "preferredName_B": "NDN",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.782,
+        "dscore": 0.75,
+        "tscore": 0.98
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000321239",
+      "preferredName_A": "TP53",
+      "preferredName_B": "RCHY1",
+      "score": 0.998,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.887,
+        "dscore": 0.9,
+        "tscore": 0.897
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000403701",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "ARRB2",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.075,
+        "escore": 0.639,
+        "dscore": 0.0,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000297494",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "NOS3",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.786,
+        "dscore": 0.9,
+        "tscore": 0.909
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000403524",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BRAP",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.048,
+        "escore": 0.474,
+        "dscore": 0.0,
+        "tscore": 0.995
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000349722",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "UBE2D3",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.975,
+        "dscore": 0.0,
+        "tscore": 0.912
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000494162",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CBLC",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.081,
+        "escore": 0.989,
+        "dscore": 0.65,
+        "tscore": 0.301
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000300574",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CRK",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.846,
+        "dscore": 0.9,
+        "tscore": 0.855
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000256078",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "KRAS",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.053,
+        "escore": 0.662,
+        "dscore": 0.9,
+        "tscore": 0.918
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000244007",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PLCG1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.898,
+        "dscore": 0.9,
+        "tscore": 0.803
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000360683",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PTPN1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.869,
+        "dscore": 0.0,
+        "tscore": 0.978
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000293328",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "STAT5B",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.787,
+        "dscore": 0.9,
+        "tscore": 0.907
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000333298",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "LAMP1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.6
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000363591",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BAK1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.054,
+        "escore": 0.791,
+        "dscore": 0.9,
+        "tscore": 0.866
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000481380",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CCNA2",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.099,
+        "escore": 0.292,
+        "dscore": 0.5,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000391090",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CHEK1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.783,
+        "dscore": 0.9,
+        "tscore": 0.906
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000225792",
+      "preferredName_A": "TP53",
+      "preferredName_B": "DDX5",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.78,
+        "dscore": 0.0,
+        "tscore": 0.987
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000352516",
+      "preferredName_A": "TP53",
+      "preferredName_B": "DNMT1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.059,
+        "escore": 0.597,
+        "dscore": 0.0,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000345347",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HMGB1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.089,
+        "escore": 0.976,
+        "dscore": 0.0,
+        "tscore": 0.876
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000302961",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HSPA4",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.05,
+        "escore": 0.866,
+        "dscore": 0.0,
+        "tscore": 0.979
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000360266",
+      "preferredName_A": "TP53",
+      "preferredName_B": "JUN",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.324,
+        "dscore": 0.5,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000378974",
+      "preferredName_A": "TP53",
+      "preferredName_B": "MAPK8",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.845,
+        "dscore": 0.9,
+        "tscore": 0.861
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000478887",
+      "preferredName_A": "TP53",
+      "preferredName_B": "MYC",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.3,
+        "dscore": 0.0,
+        "tscore": 0.997
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000296930",
+      "preferredName_A": "TP53",
+      "preferredName_B": "NPM1",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.124,
+        "escore": 0.847,
+        "dscore": 0.5,
+        "tscore": 0.967
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000313420",
+      "preferredName_A": "TP53",
+      "preferredName_B": "PRKDC",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.869,
+        "dscore": 0.9,
+        "tscore": 0.807
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000230354",
+      "preferredName_A": "TP53",
+      "preferredName_B": "TBP",
+      "score": 0.997,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.095,
+        "escore": 0.867,
+        "dscore": 0.4,
+        "tscore": 0.972
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000228872",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CDKN1B",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.121,
+        "escore": 0.797,
+        "dscore": 0.9,
+        "tscore": 0.842
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000359424",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CHUK",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.11,
+        "escore": 0.835,
+        "dscore": 0.9,
+        "tscore": 0.814
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000324806",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "GSK3B",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.138,
+        "escore": 0.929,
+        "dscore": 0.9,
+        "tscore": 0.428
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000307272",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "RPTOR",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.085,
+        "escore": 0.3,
+        "dscore": 0.9,
+        "tscore": 0.954
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000332973",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "SMAD3",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.117,
+        "escore": 0.618,
+        "dscore": 0.0,
+        "tscore": 0.989
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000343741",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ATR",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.106,
+        "escore": 0.838,
+        "dscore": 0.9,
+        "tscore": 0.812
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000391090",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "CHEK1",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.389,
+        "escore": 0.676,
+        "dscore": 0.5,
+        "tscore": 0.965
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000234420",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "MSH6",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.236,
+        "escore": 0.611,
+        "dscore": 0.54,
+        "tscore": 0.977
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000342235",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "ERBB4",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.051,
+        "ascore": 0.0,
+        "escore": 0.786,
+        "dscore": 0.4,
+        "tscore": 0.977
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000366702",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "ERRFI1",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.182,
+        "escore": 0.988,
+        "dscore": 0.0,
+        "tscore": 0.669
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000317272",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "MET",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.25,
+        "escore": 0.806,
+        "dscore": 0.0,
+        "tscore": 0.978
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000354910",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "NRG2",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.287,
+        "dscore": 0.9,
+        "tscore": 0.958
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000441543",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "UBC",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.46
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000324806",
+      "preferredName_A": "MYC",
+      "preferredName_B": "GSK3B",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.822,
+        "dscore": 0.9,
+        "tscore": 0.839
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000225916",
+      "preferredName_A": "MYC",
+      "preferredName_B": "KAT2A",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.831,
+        "dscore": 0.5,
+        "tscore": 0.963
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000343741",
+      "preferredName_A": "TP53",
+      "preferredName_B": "ATR",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.838,
+        "dscore": 0.9,
+        "tscore": 0.781
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000425979",
+      "preferredName_A": "TP53",
+      "preferredName_B": "DROSHA",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.51,
+        "dscore": 0.0,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000340330",
+      "preferredName_A": "TP53",
+      "preferredName_B": "KAT5",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.837,
+        "dscore": 0.5,
+        "tscore": 0.961
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000357704",
+      "preferredName_A": "TP53",
+      "preferredName_B": "S100A4",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.828,
+        "dscore": 0.0,
+        "tscore": 0.981
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000376077",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SUMO1",
+      "score": 0.996,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.83,
+        "dscore": 0.9,
+        "tscore": 0.811
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000375711",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "AKT1S1",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.141,
+        "escore": 0.626,
+        "dscore": 0.9,
+        "tscore": 0.882
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000222005",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CDC37",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.15,
+        "escore": 0.743,
+        "dscore": 0.9,
+        "tscore": 0.833
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000384849",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CDKN1A",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.776,
+        "dscore": 0.9,
+        "tscore": 0.833
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000428056",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PIK3R1",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.058,
+        "escore": 0.558,
+        "dscore": 0.9,
+        "tscore": 0.913
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000362680",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "SRC",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.171,
+        "ascore": 0.088,
+        "escore": 0.601,
+        "dscore": 0.5,
+        "tscore": 0.977
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000451506",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "TCL1A",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.873,
+        "dscore": 0.9,
+        "tscore": 0.654
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000483300",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ACACA",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.056,
+        "escore": 0.986,
+        "dscore": 0.0,
+        "tscore": 0.666
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000417132",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BAP1",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.292,
+        "dscore": 0.5,
+        "tscore": 0.987
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000373952",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "FANCA",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.328,
+        "escore": 0.702,
+        "dscore": 0.0,
+        "tscore": 0.977
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000499037",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CBLB",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.942,
+        "dscore": 0.9,
+        "tscore": 0.3
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000301764",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "DDB1",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.225
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000308413",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RPS6KB2",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.646,
+        "dscore": 0.9,
+        "tscore": 0.893
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000339001",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TUBB",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.2
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000383986",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDCA7L",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.085,
+        "escore": 0.51,
+        "dscore": 0.0,
+        "tscore": 0.991
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000345571",
+      "preferredName_A": "MYC",
+      "preferredName_B": "E2F1",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.084,
+        "escore": 0.166,
+        "dscore": 0.5,
+        "tscore": 0.99
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000369497",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BRCA2",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.066,
+        "escore": 0.828,
+        "dscore": 0.0,
+        "tscore": 0.974
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000363377",
+      "preferredName_A": "TP53",
+      "preferredName_B": "FOXO4",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.4,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000360609",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HSP90AB1",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.057,
+        "escore": 0.248,
+        "dscore": 0.0,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000291700",
+      "preferredName_A": "TP53",
+      "preferredName_B": "S100B",
+      "score": 0.995,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.522,
+        "dscore": 0.0,
+        "tscore": 0.99
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000367851",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CYBB",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.063,
+        "dscore": 0.0,
+        "tscore": 0.994
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000356505",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "NCF2",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.236,
+        "dscore": 0.0,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000278568",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PAK1",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.07,
+        "escore": 0.715,
+        "dscore": 0.0,
+        "tscore": 0.981
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000419260",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PIK3CG",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.098,
+        "dscore": 0.9,
+        "tscore": 0.947
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000231790",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "MLH1",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.087,
+        "escore": 0.835,
+        "dscore": 0.54,
+        "tscore": 0.93
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000233146",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "MSH2",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.227,
+        "escore": 0.725,
+        "dscore": 0.54,
+        "tscore": 0.946
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000382004",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CTNND1",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.099,
+        "escore": 0.835,
+        "dscore": 0.9,
+        "tscore": 0.674
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000360798",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "EPS15",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.841,
+        "dscore": 0.65,
+        "tscore": 0.906
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000407586",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "HRAS",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.053,
+        "escore": 0.315,
+        "dscore": 0.9,
+        "tscore": 0.931
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000379721",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "USP8",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.824,
+        "dscore": 0.9,
+        "tscore": 0.69
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000368144",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRR5L",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.51,
+        "dscore": 0.9,
+        "tscore": 0.902
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000310572",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PSMC5",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.0
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000484998",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PSMC6",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.047,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.0
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000386541",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PSMD14",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.118,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.077
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000336799",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TUBA1B",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.117
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000264071",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TUBB4A",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.072
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000389445",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "UBAP2L",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.108,
+        "escore": 0.994,
+        "dscore": 0.0,
+        "tscore": 0.056
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000451828",
+      "preferredName_A": "TP53",
+      "preferredName_B": "AKT1",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.184,
+        "dscore": 0.9,
+        "tscore": 0.934
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000293288",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BAX",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.08,
+        "escore": 0.782,
+        "dscore": 0.9,
+        "tscore": 0.774
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000229795",
+      "preferredName_A": "TP53",
+      "preferredName_B": "MAPK14",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.046,
+        "escore": 0.818,
+        "dscore": 0.9,
+        "tscore": 0.744
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000263025",
+      "preferredName_A": "TP53",
+      "preferredName_B": "MAPK3",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.626,
+        "dscore": 0.9,
+        "tscore": 0.871
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000329357",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SP1",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.065,
+        "escore": 0.923,
+        "dscore": 0.0,
+        "tscore": 0.928
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000264657",
+      "preferredName_A": "TP53",
+      "preferredName_B": "STAT3",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.063,
+        "escore": 0.164,
+        "dscore": 0.8,
+        "tscore": 0.97
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000348056",
+      "preferredName_A": "TP53",
+      "preferredName_B": "UBE2I",
+      "score": 0.994,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.924,
+        "dscore": 0.4,
+        "tscore": 0.887
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000288266",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "APPL1",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.733,
+        "dscore": 0.0,
+        "tscore": 0.977
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000378040",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "BAD",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.86,
+        "dscore": 0.9,
+        "tscore": 0.572
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000381185",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "BCL2",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.934
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000222330",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "GSK3A",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.103,
+        "escore": 0.895,
+        "dscore": 0.9,
+        "tscore": 0.384
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000289473",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "NCF1",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.101,
+        "dscore": 0.0,
+        "tscore": 0.993
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000380334",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "NCF4",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.101,
+        "escore": 0.101,
+        "dscore": 0.0,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000451828",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "AKT1",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.735,
+        "dscore": 0.9,
+        "tscore": 0.786
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000310842",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "FANCI",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.51,
+        "escore": 0.439,
+        "dscore": 0.54,
+        "tscore": 0.952
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000265433",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "NBN",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.068,
+        "escore": 0.868,
+        "dscore": 0.54,
+        "tscore": 0.902
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000346300",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CRKL",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.855,
+        "dscore": 0.9,
+        "tscore": 0.614
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000501150",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PIK3CB",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.622,
+        "dscore": 0.9,
+        "tscore": 0.842
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000222254",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PIK3R2",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.848,
+        "dscore": 0.9,
+        "tscore": 0.623
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000482457",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PLCG2",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.843,
+        "dscore": 0.9,
+        "tscore": 0.614
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000437955",
+      "preferredName_A": "MYC",
+      "preferredName_B": "HIF1A",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.091,
+        "escore": 0.435,
+        "dscore": 0.4,
+        "tscore": 0.982
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000332973",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SMAD3",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.058,
+        "escore": 0.292,
+        "dscore": 0.5,
+        "tscore": 0.983
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000225174",
+      "preferredName_A": "TP53",
+      "preferredName_B": "PPIF",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.068,
+        "escore": 0.31,
+        "dscore": 0.0,
+        "tscore": 0.99
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000262160",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SMAD2",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.083,
+        "escore": 0.797,
+        "dscore": 0.0,
+        "tscore": 0.966
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000343896",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SMARCA4",
+      "score": 0.993,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.822,
+        "dscore": 0.0,
+        "tscore": 0.964
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000261623",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CYBA",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.045,
+        "dscore": 0.0,
+        "tscore": 0.992
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000363377",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "FOXO4",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.072,
+        "escore": 0.648,
+        "dscore": 0.9,
+        "tscore": 0.801
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000501150",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PIK3CB",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.334,
+        "dscore": 0.9,
+        "tscore": 0.901
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000401888",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "RAF1",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.145,
+        "ascore": 0.075,
+        "escore": 0.816,
+        "dscore": 0.9,
+        "tscore": 0.557
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000296782",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "RICTOR",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.894,
+        "dscore": 0.4,
+        "tscore": 0.883
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000380432",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "INS",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.93
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000304895",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "IRS1",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.635,
+        "dscore": 0.9,
+        "tscore": 0.813
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000356832",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "SGK1",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.755,
+        "dscore": 0.9,
+        "tscore": 0.731
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000405330",
+      "preferredName_A": "TP53",
+      "preferredName_B": "ESR1",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.735,
+        "dscore": 0.0,
+        "tscore": 0.974
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000324806",
+      "preferredName_A": "TP53",
+      "preferredName_B": "GSK3B",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.633,
+        "dscore": 0.0,
+        "tscore": 0.981
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000251810",
+      "preferredName_A": "TP53",
+      "preferredName_B": "RRM2B",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.087,
+        "escore": 0.625,
+        "dscore": 0.75,
+        "tscore": 0.923
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000244050",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SNAI1",
+      "score": 0.992,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.51,
+        "dscore": 0.5,
+        "tscore": 0.973
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000375892",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "AKT2",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.05,
+        "ascore": 0.131,
+        "escore": 0.787,
+        "dscore": 0.9,
+        "tscore": 0.569
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000365230",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "BCL2L1",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.095,
+        "escore": 0.292,
+        "dscore": 0.9,
+        "tscore": 0.888
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000248553",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "HSPB1",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.05,
+        "escore": 0.782,
+        "dscore": 0.0,
+        "tscore": 0.963
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000360266",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "JUN",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.085,
+        "dscore": 0.9,
+        "tscore": 0.915
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000243924",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PI3",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.0,
+        "tscore": 0.991
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000357804",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "THEM4",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.736,
+        "dscore": 0.9,
+        "tscore": 0.692
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000371420",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "GPNMB",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.292,
+        "dscore": 0.5,
+        "tscore": 0.977
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000376637",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "IGF1",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.919
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000358548",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "NRAS",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.053,
+        "escore": 0.249,
+        "dscore": 0.9,
+        "tscore": 0.899
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000358423",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RRAGD",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.775,
+        "dscore": 0.9,
+        "tscore": 0.655
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000264709",
+      "preferredName_A": "MYC",
+      "preferredName_B": "DNMT3A",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.103,
+        "escore": 0.516,
+        "dscore": 0.0,
+        "tscore": 0.983
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000362649",
+      "preferredName_A": "MYC",
+      "preferredName_B": "HDAC1",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.076,
+        "escore": 0.821,
+        "dscore": 0.0,
+        "tscore": 0.953
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000351273",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CASP8",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.292,
+        "dscore": 0.9,
+        "tscore": 0.879
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000228872",
+      "preferredName_A": "TP53",
+      "preferredName_B": "CDKN1B",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.076,
+        "dscore": 0.9,
+        "tscore": 0.911
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000360025",
+      "preferredName_A": "TP53",
+      "preferredName_B": "GADD45A",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.069,
+        "dscore": 0.9,
+        "tscore": 0.913
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000379287",
+      "preferredName_A": "TP53",
+      "preferredName_B": "YWHAZ",
+      "score": 0.991,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.695,
+        "dscore": 0.5,
+        "tscore": 0.947
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000409581",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "ARRB1",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.345,
+        "dscore": 0.0,
+        "tscore": 0.985
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000430684",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "IKBKB",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.152,
+        "escore": 0.775,
+        "dscore": 0.9,
+        "tscore": 0.57
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000229795",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "MAPK14",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.119,
+        "ascore": 0.246,
+        "escore": 0.739,
+        "dscore": 0.9,
+        "tscore": 0.535
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000219476",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "TSC2",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.125,
+        "escore": 0.314,
+        "dscore": 0.9,
+        "tscore": 0.856
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000224140",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "SETX",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.772,
+        "dscore": 0.0,
+        "tscore": 0.961
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000262741",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PIK3R3",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.81,
+        "dscore": 0.9,
+        "tscore": 0.554
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000219476",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TSC2",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.149,
+        "escore": 0.458,
+        "dscore": 0.5,
+        "tscore": 0.961
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000263754",
+      "preferredName_A": "MYC",
+      "preferredName_B": "KAT2B",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.351,
+        "dscore": 0.5,
+        "tscore": 0.972
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000263377",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BRD4",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.735,
+        "dscore": 0.0,
+        "tscore": 0.966
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000378181",
+      "preferredName_A": "TP53",
+      "preferredName_B": "BRD7",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.103,
+        "escore": 0.685,
+        "dscore": 0.5,
+        "tscore": 0.938
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000430432",
+      "preferredName_A": "TP53",
+      "preferredName_B": "HDAC2",
+      "score": 0.99,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.102,
+        "escore": 0.837,
+        "dscore": 0.5,
+        "tscore": 0.888
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000330237",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CASP9",
+      "score": 0.989,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.085,
+        "escore": 0.067,
+        "dscore": 0.9,
+        "tscore": 0.887
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000497069",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "IGF1R",
+      "score": 0.989,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.113,
+        "escore": 0.585,
+        "dscore": 0.0,
+        "tscore": 0.972
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000442460",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PTK6",
+      "score": 0.989,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.624,
+        "dscore": 0.5,
+        "tscore": 0.947
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000231487",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SKP1",
+      "score": 0.989,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.924,
+        "dscore": 0.0,
+        "tscore": 0.86
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000226574",
+      "preferredName_A": "TP53",
+      "preferredName_B": "NFKB1",
+      "score": 0.989,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.098,
+        "escore": 0.045,
+        "dscore": 0.0,
+        "tscore": 0.989
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000269305",
+      "stringId_B": "9606.ENSP00000355924",
+      "preferredName_A": "TP53",
+      "preferredName_B": "SMYD2",
+      "score": 0.989,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.07,
+        "escore": 0.891,
+        "dscore": 0.75,
+        "tscore": 0.628
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000215832",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "MAPK1",
+      "score": 0.988,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.118,
+        "escore": 0.11,
+        "dscore": 0.9,
+        "tscore": 0.872
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000361021",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PTEN",
+      "score": 0.988,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.648,
+        "dscore": 0.0,
+        "tscore": 0.967
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000405330",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "ESR1",
+      "score": 0.988,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.583,
+        "dscore": 0.0,
+        "tscore": 0.974
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000364995",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SHC3",
+      "score": 0.988,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.849,
+        "dscore": 0.9,
+        "tscore": 0.282
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000329668",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SHC4",
+      "score": 0.988,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.857,
+        "dscore": 0.9,
+        "tscore": 0.251
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000290341",
+      "preferredName_A": "MYC",
+      "preferredName_B": "IGF2BP1",
+      "score": 0.988,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.079,
+        "escore": 0.421,
+        "dscore": 0.0,
+        "tscore": 0.98
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000457991",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PHLPP2",
+      "score": 0.987,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.317,
+        "dscore": 0.9,
+        "tscore": 0.829
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000351284",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RAD52",
+      "score": 0.987,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.05,
+        "escore": 0.421,
+        "dscore": 0.5,
+        "tscore": 0.961
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000264554",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SHC2",
+      "score": 0.987,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.753,
+        "dscore": 0.9,
+        "tscore": 0.529
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000424495",
+      "preferredName_A": "MYC",
+      "preferredName_B": "ZNF346",
+      "score": 0.987,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.161,
+        "dscore": 0.0,
+        "tscore": 0.986
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000387739",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "AMOTL1",
+      "score": 0.986,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.084,
+        "dscore": 0.0,
+        "tscore": 0.986
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000263253",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "EP300",
+      "score": 0.986,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.068,
+        "escore": 0.82,
+        "dscore": 0.0,
+        "tscore": 0.928
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000371067",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "JAK2",
+      "score": 0.986,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.723,
+        "dscore": 0.9,
+        "tscore": 0.564
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000257290",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PDGFRA",
+      "score": 0.986,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.108,
+        "escore": 0.663,
+        "dscore": 0.9,
+        "tscore": 0.59
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000378914",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "ULK2",
+      "score": 0.986,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.555,
+        "dscore": 0.9,
+        "tscore": 0.715
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000263025",
+      "preferredName_A": "MYC",
+      "preferredName_B": "MAPK3",
+      "score": 0.986,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.292,
+        "dscore": 0.9,
+        "tscore": 0.829
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000351908",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "MAP3K5",
+      "score": 0.985,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.314,
+        "dscore": 0.9,
+        "tscore": 0.803
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000366863",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "TBC1D4",
+      "score": 0.985,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.292,
+        "dscore": 0.9,
+        "tscore": 0.81
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000298552",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "TSC1",
+      "score": 0.985,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.477,
+        "dscore": 0.9,
+        "tscore": 0.736
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000495360",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CTNNB1",
+      "score": 0.985,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.058,
+        "escore": 0.567,
+        "dscore": 0.5,
+        "tscore": 0.937
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000264657",
+      "preferredName_A": "MYC",
+      "preferredName_B": "STAT3",
+      "score": 0.985,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.066,
+        "escore": 0.612,
+        "dscore": 0.75,
+        "tscore": 0.859
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000463939",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "ARHGDIA",
+      "score": 0.984,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.152,
+        "escore": 0.045,
+        "dscore": 0.0,
+        "tscore": 0.982
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000266970",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "CDK2",
+      "score": 0.984,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.194,
+        "escore": 0.735,
+        "dscore": 0.5,
+        "tscore": 0.872
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000354952",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "GAB2",
+      "score": 0.984,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.625,
+        "dscore": 0.9,
+        "tscore": 0.621
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000320147",
+      "preferredName_A": "MYC",
+      "preferredName_B": "EZH2",
+      "score": 0.984,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.097,
+        "escore": 0.742,
+        "dscore": 0.0,
+        "tscore": 0.94
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000356520",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "DHX9",
+      "score": 0.983,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.072,
+        "escore": 0.51,
+        "dscore": 0.0,
+        "tscore": 0.967
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000343896",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "SMARCA4",
+      "score": 0.983,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.056,
+        "escore": 0.628,
+        "dscore": 0.0,
+        "tscore": 0.957
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000298139",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "WRN",
+      "score": 0.983,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.079,
+        "escore": 0.702,
+        "dscore": 0.5,
+        "tscore": 0.891
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000351742",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TFEB",
+      "score": 0.983,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.901,
+        "dscore": 0.0,
+        "tscore": 0.838
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000215832",
+      "preferredName_A": "MYC",
+      "preferredName_B": "MAPK1",
+      "score": 0.983,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.643,
+        "dscore": 0.9,
+        "tscore": 0.582
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000483825",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "IKBKG",
+      "score": 0.982,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.12,
+        "escore": 0.456,
+        "dscore": 0.9,
+        "tscore": 0.67
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000225577",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "RPS6KB1",
+      "score": 0.982,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.068,
+        "ascore": 0.09,
+        "escore": 0.772,
+        "dscore": 0.9,
+        "tscore": 0.211
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000320898",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RNF168",
+      "score": 0.982,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.596,
+        "dscore": 0.5,
+        "tscore": 0.92
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000025008",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RB1CC1",
+      "score": 0.982,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.066,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.827
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000405330",
+      "preferredName_A": "MYC",
+      "preferredName_B": "ESR1",
+      "score": 0.982,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.053,
+        "escore": 0.62,
+        "dscore": 0.5,
+        "tscore": 0.913
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000262160",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SMAD2",
+      "score": 0.982,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.525,
+        "dscore": 0.5,
+        "tscore": 0.931
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000299767",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "HSP90B1",
+      "score": 0.981,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.362,
+        "dscore": 0.9,
+        "tscore": 0.728
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000306253",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "ITPR1",
+      "score": 0.981,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.44,
+        "dscore": 0.0,
+        "tscore": 0.967
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000355506",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "EXO1",
+      "score": 0.981,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.558,
+        "escore": 0.292,
+        "dscore": 0.5,
+        "tscore": 0.897
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000370473",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "IGFBP3",
+      "score": 0.981,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.169,
+        "escore": 0.292,
+        "dscore": 0.0,
+        "tscore": 0.971
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000384849",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDKN1A",
+      "score": 0.981,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.105,
+        "escore": 0.32,
+        "dscore": 0.5,
+        "tscore": 0.945
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000418447",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PPP2CA",
+      "score": 0.98,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.842,
+        "dscore": 0.65,
+        "tscore": 0.667
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000336701",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RAD51C",
+      "score": 0.98,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.211,
+        "escore": 0.045,
+        "dscore": 0.5,
+        "tscore": 0.953
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000222390",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "HGF",
+      "score": 0.98,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.65,
+        "tscore": 0.947
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000380921",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SH3KBP1",
+      "score": 0.98,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.058,
+        "escore": 0.85,
+        "dscore": 0.65,
+        "tscore": 0.661
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000351446",
+      "preferredName_A": "MYC",
+      "preferredName_B": "WDR5",
+      "score": 0.98,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.073,
+        "escore": 0.715,
+        "dscore": 0.0,
+        "tscore": 0.933
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000495360",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "CTNNB1",
+      "score": 0.979,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.539,
+        "dscore": 0.4,
+        "tscore": 0.93
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000385675",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "IL6",
+      "score": 0.979,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.0,
+        "dscore": 0.65,
+        "tscore": 0.943
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000222693",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "CAV2",
+      "score": 0.977,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.122,
+        "escore": 0.742,
+        "dscore": 0.8,
+        "tscore": 0.558
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000338990",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "ATG101",
+      "score": 0.977,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.786
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000265960",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "MAPKAP1",
+      "score": 0.976,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.126,
+        "escore": 0.789,
+        "dscore": 0.4,
+        "tscore": 0.814
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000327251",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "NOS2",
+      "score": 0.976,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.045,
+        "dscore": 0.9,
+        "tscore": 0.775
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000366563",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PIK3CD",
+      "score": 0.976,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.098,
+        "dscore": 0.9,
+        "tscore": 0.757
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000359077",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "L1CAM",
+      "score": 0.976,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.076,
+        "escore": 0.339,
+        "dscore": 0.9,
+        "tscore": 0.666
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000268182",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "IQGAP1",
+      "score": 0.975,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.292,
+        "dscore": 0.0,
+        "tscore": 0.966
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000273261",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "LRIG1",
+      "score": 0.975,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.795,
+        "dscore": 0.4,
+        "tscore": 0.817
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000354394",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "STAT1",
+      "score": 0.975,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.84,
+        "dscore": 0.0,
+        "tscore": 0.851
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000221930",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "TGFB1",
+      "score": 0.975,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.152,
+        "dscore": 0.0,
+        "tscore": 0.972
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000261900",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CCNT1",
+      "score": 0.975,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.054,
+        "escore": 0.778,
+        "dscore": 0.0,
+        "tscore": 0.894
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000335153",
+      "preferredName_A": "MYC",
+      "preferredName_B": "HSP90AA1",
+      "score": 0.975,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.062,
+        "escore": 0.606,
+        "dscore": 0.0,
+        "tscore": 0.939
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000274255",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SKP2",
+      "score": 0.975,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.063,
+        "escore": 0.837,
+        "dscore": 0.0,
+        "tscore": 0.85
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000367830",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PRKCZ",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.625,
+        "dscore": 0.9,
+        "tscore": 0.368
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000475727",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "TBC1D7",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.292,
+        "dscore": 0.9,
+        "tscore": 0.666
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000365891",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "WAS",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.048,
+        "escore": 0.088,
+        "dscore": 0.0,
+        "tscore": 0.973
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000347232",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BLM",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.437,
+        "escore": 0.691,
+        "dscore": 0.5,
+        "tscore": 0.742
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000217109",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "CSTF1",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.064,
+        "escore": 0.51,
+        "dscore": 0.0,
+        "tscore": 0.948
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000355759",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "PARP1",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.085,
+        "escore": 0.596,
+        "dscore": 0.0,
+        "tscore": 0.935
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000403459",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "GRB7",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.021,
+        "pscore": 0.0,
+        "ascore": 0.08,
+        "escore": 0.216,
+        "dscore": 0.0,
+        "tscore": 0.967
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000298552",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "TSC1",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.272,
+        "escore": 0.274,
+        "dscore": 0.5,
+        "tscore": 0.914
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000340330",
+      "preferredName_A": "MYC",
+      "preferredName_B": "KAT5",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.676,
+        "dscore": 0.0,
+        "tscore": 0.925
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000343896",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SMARCA4",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.047,
+        "escore": 0.731,
+        "dscore": 0.0,
+        "tscore": 0.909
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000329357",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SP1",
+      "score": 0.974,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.785,
+        "dscore": 0.0,
+        "tscore": 0.883
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000363019",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "UBE2D1",
+      "score": 0.973,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.898,
+        "dscore": 0.0,
+        "tscore": 0.749
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000359424",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "CHUK",
+      "score": 0.973,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.095,
+        "escore": 0.526,
+        "dscore": 0.9,
+        "tscore": 0.452
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000360290",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRKAA2",
+      "score": 0.973,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.115,
+        "dscore": 0.9,
+        "tscore": 0.721
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000304895",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "IRS1",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.539,
+        "dscore": 0.0,
+        "tscore": 0.941
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000343223",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "TCL1B",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.292,
+        "dscore": 0.9,
+        "tscore": 0.641
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000323099",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ATRIP",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.777,
+        "dscore": 0.5,
+        "tscore": 0.761
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000257904",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "CDK4",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.127,
+        "escore": 0.625,
+        "dscore": 0.8,
+        "tscore": 0.633
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000375978",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "XRCC5",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.51,
+        "dscore": 0.54,
+        "tscore": 0.883
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000369981",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "SH3GL2",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.814,
+        "dscore": 0.65,
+        "tscore": 0.604
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000357288",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "LAMTOR2",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.054,
+        "escore": 0.918,
+        "dscore": 0.5,
+        "tscore": 0.36
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000346148",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRKAA1",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.082,
+        "escore": 0.115,
+        "dscore": 0.9,
+        "tscore": 0.698
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000387739",
+      "preferredName_A": "MYC",
+      "preferredName_B": "AMOTL1",
+      "score": 0.972,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.052,
+        "escore": 0.0,
+        "dscore": 0.0,
+        "tscore": 0.972
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000324173",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "HSPA5",
+      "score": 0.971,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.637,
+        "dscore": 0.0,
+        "tscore": 0.924
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000222254",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "PIK3R2",
+      "score": 0.971,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.128,
+        "escore": 0.093,
+        "dscore": 0.9,
+        "tscore": 0.677
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000358488",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "MTCP1",
+      "score": 0.97,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.51,
+        "dscore": 0.9,
+        "tscore": 0.438
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000365851",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "BMI1",
+      "score": 0.97,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.717
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000362578",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RNF8",
+      "score": 0.97,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.191,
+        "dscore": 0.5,
+        "tscore": 0.93
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000499900",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "JAK1",
+      "score": 0.97,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.045,
+        "escore": 0.417,
+        "dscore": 0.9,
+        "tscore": 0.537
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000274376",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "RASA1",
+      "score": 0.97,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.716,
+        "dscore": 0.0,
+        "tscore": 0.901
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000326804",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CUL1",
+      "score": 0.97,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.043,
+        "escore": 0.565,
+        "dscore": 0.0,
+        "tscore": 0.934
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000360266",
+      "preferredName_A": "MYC",
+      "preferredName_B": "JUN",
+      "score": 0.97,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.079,
+        "escore": 0.626,
+        "dscore": 0.0,
+        "tscore": 0.922
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000361021",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PTEN",
+      "score": 0.969,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.608,
+        "dscore": 0.0,
+        "tscore": 0.925
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000408695",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRKCA",
+      "score": 0.969,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.292,
+        "dscore": 0.9,
+        "tscore": 0.602
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000227507",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CCND1",
+      "score": 0.969,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.0,
+        "dscore": 0.4,
+        "tscore": 0.95
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000318297",
+      "preferredName_A": "MYC",
+      "preferredName_B": "RUVBL1",
+      "score": 0.969,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.072,
+        "escore": 0.716,
+        "dscore": 0.0,
+        "tscore": 0.893
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000262367",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "CREBBP",
+      "score": 0.968,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.061,
+        "escore": 0.833,
+        "dscore": 0.0,
+        "tscore": 0.814
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000275493",
+      "stringId_B": "9606.ENSP00000330382",
+      "preferredName_A": "EGFR",
+      "preferredName_B": "PDGFB",
+      "score": 0.968,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.695
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000451828",
+      "stringId_B": "9606.ENSP00000363435",
+      "preferredName_A": "AKT1",
+      "preferredName_B": "ITPR3",
+      "score": 0.967,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.292,
+        "dscore": 0.0,
+        "tscore": 0.954
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000375892",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "AKT2",
+      "score": 0.967,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.073,
+        "dscore": 0.9,
+        "tscore": 0.668
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000441369",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRKAB1",
+      "score": 0.967,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.09,
+        "dscore": 0.9,
+        "tscore": 0.659
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000380702",
+      "preferredName_A": "MYC",
+      "preferredName_B": "MYCBP",
+      "score": 0.967,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.062,
+        "escore": 0.616,
+        "dscore": 0.0,
+        "tscore": 0.918
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000362314",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "EIF4EBP2",
+      "score": 0.966,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.331,
+        "dscore": 0.9,
+        "tscore": 0.537
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000365016",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "IRS2",
+      "score": 0.966,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.312,
+        "dscore": 0.9,
+        "tscore": 0.548
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000257904",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDK4",
+      "score": 0.966,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.1,
+        "escore": 0.642,
+        "dscore": 0.0,
+        "tscore": 0.904
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000276925",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDKN2B",
+      "score": 0.966,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.166,
+        "dscore": 0.9,
+        "tscore": 0.621
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000356233",
+      "preferredName_A": "MYC",
+      "preferredName_B": "KDM5B",
+      "score": 0.966,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.328,
+        "dscore": 0.8,
+        "tscore": 0.762
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000003302",
+      "preferredName_A": "MYC",
+      "preferredName_B": "USP28",
+      "score": 0.966,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.791,
+        "dscore": 0.7,
+        "tscore": 0.507
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000306245",
+      "preferredName_A": "MYC",
+      "preferredName_B": "FOS",
+      "score": 0.965,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.134,
+        "escore": 0.221,
+        "dscore": 0.4,
+        "tscore": 0.924
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000377492",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "HMMR",
+      "score": 0.964,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.364,
+        "escore": 0.419,
+        "dscore": 0.0,
+        "tscore": 0.912
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000287820",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PPARG",
+      "score": 0.964,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.655
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000323867",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRKAG1",
+      "score": 0.964,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.092,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.645
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000325120",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "PGR",
+      "score": 0.963,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.512,
+        "dscore": 0.0,
+        "tscore": 0.928
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000264552",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "UBE2S",
+      "score": 0.963,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.082,
+        "escore": 0.089,
+        "dscore": 0.9,
+        "tscore": 0.614
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000278671",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "LAMTOR1",
+      "score": 0.963,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.867,
+        "dscore": 0.5,
+        "tscore": 0.492
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000263967",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PIK3CA",
+      "score": 0.963,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.166,
+        "dscore": 0.9,
+        "tscore": 0.592
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000425561",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "EIF4E",
+      "score": 0.962,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.356,
+        "dscore": 0.4,
+        "tscore": 0.91
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000001008",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "FKBP4",
+      "score": 0.961,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.91,
+        "dscore": 0.0,
+        "tscore": 0.578
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000444810",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "FKBP5",
+      "score": 0.961,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.91,
+        "dscore": 0.0,
+        "tscore": 0.58
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000369757",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RPS6",
+      "score": 0.961,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.314,
+        "dscore": 0.0,
+        "tscore": 0.946
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000380252",
+      "preferredName_A": "MYC",
+      "preferredName_B": "NFE2L2",
+      "score": 0.961,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.066,
+        "escore": 0.531,
+        "dscore": 0.75,
+        "tscore": 0.693
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000300093",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "PLK1",
+      "score": 0.96,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.235,
+        "escore": 0.781,
+        "dscore": 0.0,
+        "tscore": 0.783
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000254719",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RPA1",
+      "score": 0.96,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.078,
+        "escore": 0.803,
+        "dscore": 0.5,
+        "tscore": 0.614
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000500582",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "AKT3",
+      "score": 0.96,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.073,
+        "dscore": 0.9,
+        "tscore": 0.609
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000468280",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "K7ERJ3_HUMAN",
+      "score": 0.96,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.95,
+        "dscore": 0.0,
+        "tscore": 0.246
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000266970",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDK2",
+      "score": 0.96,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.114,
+        "escore": 0.327,
+        "dscore": 0.5,
+        "tscore": 0.884
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000473172",
+      "preferredName_A": "MYC",
+      "preferredName_B": "RUVBL2",
+      "score": 0.96,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.063,
+        "escore": 0.795,
+        "dscore": 0.0,
+        "tscore": 0.812
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000201031",
+      "preferredName_A": "MYC",
+      "preferredName_B": "TFAP2C",
+      "score": 0.96,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.073,
+        "escore": 0.459,
+        "dscore": 0.5,
+        "tscore": 0.861
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000362649",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "HDAC1",
+      "score": 0.958,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.51,
+        "dscore": 0.0,
+        "tscore": 0.917
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000354394",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "STAT1",
+      "score": 0.958,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.043,
+        "escore": 0.292,
+        "dscore": 0.0,
+        "tscore": 0.943
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000400175",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "RHOA",
+      "score": 0.958,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.053,
+        "escore": 0.139,
+        "dscore": 0.9,
+        "tscore": 0.555
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000305422",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CEBPB",
+      "score": 0.958,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.14,
+        "escore": 0.369,
+        "dscore": 0.75,
+        "tscore": 0.732
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000447942",
+      "preferredName_A": "MYC",
+      "preferredName_B": "PFDN5",
+      "score": 0.958,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.82,
+        "dscore": 0.0,
+        "tscore": 0.781
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000323588",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SOX2",
+      "score": 0.958,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.045,
+        "escore": 0.0,
+        "dscore": 0.4,
+        "tscore": 0.932
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000262238",
+      "preferredName_A": "MYC",
+      "preferredName_B": "YY1",
+      "score": 0.958,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.058,
+        "escore": 0.294,
+        "dscore": 0.0,
+        "tscore": 0.943
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000337332",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SIRT6",
+      "score": 0.957,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.3,
+        "dscore": 0.9,
+        "tscore": 0.447
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000361423",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "ABL1",
+      "score": 0.956,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.483,
+        "dscore": 0.5,
+        "tscore": 0.847
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000481380",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "CCNA2",
+      "score": 0.956,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.387,
+        "escore": 0.51,
+        "dscore": 0.5,
+        "tscore": 0.746
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000428056",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PIK3R1",
+      "score": 0.956,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.577
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000259915",
+      "preferredName_A": "MYC",
+      "preferredName_B": "POU5F1",
+      "score": 0.956,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.082,
+        "escore": 0.226,
+        "dscore": 0.0,
+        "tscore": 0.943
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000332194",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "H2AC20",
+      "score": 0.955,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.642,
+        "dscore": 0.5,
+        "tscore": 0.769
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000313420",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "PRKDC",
+      "score": 0.955,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.21,
+        "escore": 0.292,
+        "dscore": 0.54,
+        "tscore": 0.846
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000316176",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "UBE2N",
+      "score": 0.955,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.056,
+        "escore": 0.729,
+        "dscore": 0.5,
+        "tscore": 0.694
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000381185",
+      "preferredName_A": "MYC",
+      "preferredName_B": "BCL2",
+      "score": 0.955,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.065,
+        "escore": 0.3,
+        "dscore": 0.0,
+        "tscore": 0.937
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000461879",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "POLR2A",
+      "score": 0.954,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.875,
+        "dscore": 0.5,
+        "tscore": 0.321
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000352271",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "XRCC2",
+      "score": 0.954,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.186,
+        "escore": 0.0,
+        "dscore": 0.5,
+        "tscore": 0.897
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000374212",
+      "preferredName_A": "MYC",
+      "preferredName_B": "EP400",
+      "score": 0.954,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.688,
+        "dscore": 0.0,
+        "tscore": 0.859
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000430432",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "HDAC2",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.064,
+        "escore": 0.61,
+        "dscore": 0.0,
+        "tscore": 0.883
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000357113",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "IFI16",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.625,
+        "dscore": 0.0,
+        "tscore": 0.882
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000466399",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "RAD51D",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.108,
+        "escore": 0.045,
+        "dscore": 0.5,
+        "tscore": 0.903
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000451974",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "XRCC3",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.058,
+        "escore": 0.045,
+        "dscore": 0.5,
+        "tscore": 0.908
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000352257",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "XRCC6",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.05,
+        "escore": 0.0,
+        "dscore": 0.54,
+        "tscore": 0.902
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000363661",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "IGBP1",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.091,
+        "escore": 0.286,
+        "dscore": 0.9,
+        "tscore": 0.363
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000343118",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "LAMTOR4",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.867,
+        "dscore": 0.5,
+        "tscore": 0.349
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000374455",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "SQSTM1",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.042,
+        "escore": 0.735,
+        "dscore": 0.0,
+        "tscore": 0.832
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000362361",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDK9",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.835,
+        "dscore": 0.0,
+        "tscore": 0.73
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000230354",
+      "preferredName_A": "MYC",
+      "preferredName_B": "TBP",
+      "score": 0.953,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.51,
+        "dscore": 0.0,
+        "tscore": 0.907
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000471700",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "FKBP8",
+      "score": 0.952,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.047,
+        "escore": 0.562,
+        "dscore": 0.0,
+        "tscore": 0.895
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000256644",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "LAMTOR5",
+      "score": 0.952,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.867,
+        "dscore": 0.5,
+        "tscore": 0.338
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000348838",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "UBE2C",
+      "score": 0.951,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.302,
+        "escore": 0.089,
+        "dscore": 0.9,
+        "tscore": 0.322
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000216330",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "FKBP3",
+      "score": 0.951,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.925,
+        "dscore": 0.0,
+        "tscore": 0.365
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000346032",
+      "preferredName_A": "MYC",
+      "preferredName_B": "ANXA2",
+      "score": 0.951,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.085,
+        "escore": 0.422,
+        "dscore": 0.0,
+        "tscore": 0.915
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000265849",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "PMS2",
+      "score": 0.95,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.085,
+        "escore": 0.238,
+        "dscore": 0.54,
+        "tscore": 0.864
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000303706",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CDC25A",
+      "score": 0.95,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.088,
+        "escore": 0.053,
+        "dscore": 0.75,
+        "tscore": 0.797
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000244537",
+      "preferredName_A": "MYC",
+      "preferredName_B": "H4C6",
+      "score": 0.95,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.566,
+        "dscore": 0.5,
+        "tscore": 0.79
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000302967",
+      "preferredName_A": "MYC",
+      "preferredName_B": "HDAC3",
+      "score": 0.949,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.785,
+        "dscore": 0.0,
+        "tscore": 0.771
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000229307",
+      "preferredName_A": "MYC",
+      "preferredName_B": "NANOG",
+      "score": 0.949,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.086,
+        "dscore": 0.4,
+        "tscore": 0.915
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000318195",
+      "preferredName_A": "MYC",
+      "preferredName_B": "NCL",
+      "score": 0.947,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.114,
+        "escore": 0.491,
+        "dscore": 0.0,
+        "tscore": 0.892
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000479322",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "CLIP1",
+      "score": 0.946,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.094,
+        "escore": 0.345,
+        "dscore": 0.9,
+        "tscore": 0.206
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000262367",
+      "preferredName_A": "MYC",
+      "preferredName_B": "CREBBP",
+      "score": 0.945,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.086,
+        "escore": 0.583,
+        "dscore": 0.5,
+        "tscore": 0.746
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000363804",
+      "preferredName_A": "MYC",
+      "preferredName_B": "KLF4",
+      "score": 0.945,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.099,
+        "escore": 0.045,
+        "dscore": 0.0,
+        "tscore": 0.942
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000425979",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "DROSHA",
+      "score": 0.944,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.105,
+        "escore": 0.0,
+        "dscore": 0.0,
+        "tscore": 0.94
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000397908",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "LPIN1",
+      "score": 0.944,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.056,
+        "escore": 0.075,
+        "dscore": 0.9,
+        "tscore": 0.435
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000222254",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PIK3R2",
+      "score": 0.944,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.06,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.453
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000418960",
+      "stringId_B": "9606.ENSP00000438574",
+      "preferredName_A": "BRCA1",
+      "preferredName_B": "PIAS1",
+      "score": 0.943,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.677,
+        "dscore": 0.4,
+        "tscore": 0.73
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000501150",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PIK3CB",
+      "score": 0.943,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.082,
+        "escore": 0.166,
+        "dscore": 0.9,
+        "tscore": 0.35
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000366563",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PIK3CD",
+      "score": 0.942,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.056,
+        "escore": 0.166,
+        "dscore": 0.9,
+        "tscore": 0.36
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000361021",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PTEN",
+      "score": 0.942,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.281,
+        "dscore": 0.0,
+        "tscore": 0.922
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000285398",
+      "preferredName_A": "MYC",
+      "preferredName_B": "ERCC3",
+      "score": 0.942,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.083,
+        "escore": 0.402,
+        "dscore": 0.0,
+        "tscore": 0.903
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000263377",
+      "preferredName_A": "MYC",
+      "preferredName_B": "BRD4",
+      "score": 0.941,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.048,
+        "escore": 0.689,
+        "dscore": 0.0,
+        "tscore": 0.817
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000254810",
+      "preferredName_A": "MYC",
+      "preferredName_B": "H3-3B",
+      "score": 0.938,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.318,
+        "dscore": 0.5,
+        "tscore": 0.831
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000501092",
+      "preferredName_A": "MYC",
+      "preferredName_B": "TFAP2A",
+      "score": 0.938,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.084,
+        "escore": 0.292,
+        "dscore": 0.5,
+        "tscore": 0.832
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000262741",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PIK3R3",
+      "score": 0.937,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.397
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000496129",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRKCB",
+      "score": 0.937,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.0,
+        "dscore": 0.9,
+        "tscore": 0.401
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000212015",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "SIRT1",
+      "score": 0.937,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.526,
+        "dscore": 0.0,
+        "tscore": 0.867
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000368686",
+      "preferredName_A": "MYC",
+      "preferredName_B": "E2F4",
+      "score": 0.937,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.067,
+        "escore": 0.0,
+        "dscore": 0.5,
+        "tscore": 0.876
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000352252",
+      "preferredName_A": "MYC",
+      "preferredName_B": "H3C12",
+      "score": 0.936,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.044,
+        "dscore": 0.5,
+        "tscore": 0.875
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000254101",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "PRKAB2",
+      "score": 0.935,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.098,
+        "escore": 0.09,
+        "dscore": 0.9,
+        "tscore": 0.306
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000497594",
+      "preferredName_A": "MYC",
+      "preferredName_B": "UBE3A",
+      "score": 0.935,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.124,
+        "dscore": 0.0,
+        "tscore": 0.929
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000281043",
+      "preferredName_A": "MYC",
+      "preferredName_B": "MYCN",
+      "score": 0.933,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.432,
+        "dscore": 0.8,
+        "tscore": 0.458
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000263734",
+      "preferredName_A": "MYC",
+      "preferredName_B": "EPAS1",
+      "score": 0.932,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.074,
+        "escore": 0.052,
+        "dscore": 0.0,
+        "tscore": 0.929
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000341551",
+      "preferredName_A": "MYC",
+      "preferredName_B": "SMAD4",
+      "score": 0.931,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.044,
+        "escore": 0.0,
+        "dscore": 0.5,
+        "tscore": 0.868
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000424183",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "LAMTOR3",
+      "score": 0.93,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.055,
+        "escore": 0.805,
+        "dscore": 0.5,
+        "tscore": 0.332
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000478887",
+      "stringId_B": "9606.ENSP00000434776",
+      "preferredName_A": "MYC",
+      "preferredName_B": "PARP10",
+      "score": 0.93,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.0,
+        "escore": 0.469,
+        "dscore": 0.0,
+        "tscore": 0.874
+      }
+    },
+    {
+      "stringId_A": "9606.ENSP00000354558",
+      "stringId_B": "9606.ENSP00000264657",
+      "preferredName_A": "MTOR",
+      "preferredName_B": "STAT3",
+      "score": 0.926,
+      "evidence": {
+        "nscore": 0.0,
+        "fscore": 0.0,
+        "pscore": 0.0,
+        "ascore": 0.049,
+        "escore": 0.735,
+        "dscore": 0.0,
+        "tscore": 0.73
+      }
+    }
+  ]
+}

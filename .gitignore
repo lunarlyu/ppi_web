@@ -1,0 +1,9 @@
+CRISPRGeneEffect.csv
+dist/
+node_modules/
+.tools/
+.run/
+*.tgz
+*.tar
+*.tar.gz
+.DS_Store
