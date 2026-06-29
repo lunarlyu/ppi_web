@@ -15,11 +15,11 @@
       <section class="control-panel" aria-label="STRING interaction controls">
         <div>
           <span class="eyebrow">STRING Protein-Protein Interaction</span>
-          <h1>Star map for a protein of interest</h1>
+          <h1>Target-first effector star map</h1>
         </div>
 
         <form id="search-form" class="search-card">
-          <label for="protein-input">Interested protein</label>
+          <label for="protein-input">Tumor-overexpressed target</label>
           <div class="search-row">
             <input
               id="protein-input"
@@ -120,14 +120,14 @@
               <strong>Only essential proteins</strong>
               <small>local DepMap Chronos/CERES dependency list</small>
             </span>
-            <input id="essential-only" type="checkbox" />
+            <input id="essential-only" type="checkbox" checked />
           </label>
         </section>
 
         <section class="status-panel" aria-label="Network summary">
           <div>
             <span id="visible-count">0</span>
-            <small>visible partners</small>
+            <small>effector candidates</small>
           </div>
           <div>
             <span id="score-span">0.99-1.00</span>
@@ -160,22 +160,22 @@
             aria-label="Star map of STRING protein interactions"
           ></svg>
           <div id="empty-state" class="empty-state" hidden>
-            <strong>No interactions match these filters</strong>
+            <strong>No effector candidates match these filters</strong>
             <span>Try widening the score window or turning off essential-only.</span>
           </div>
         </div>
       </section>
 
-      <aside class="detail-panel" aria-label="Selected interaction details">
+      <aside class="detail-panel" aria-label="Selected effector candidate details">
         <div>
-          <span class="eyebrow">Selected edge</span>
+          <span class="eyebrow">Effector candidate</span>
           <h2 id="detail-title">Pick a bubble</h2>
           <p id="detail-copy">
-            Click any partner to inspect its STRING score and evidence channels.
+            Click any effector candidate to inspect its STRING score and DepMap
+            dependency.
           </p>
         </div>
         <div id="detail-bars" class="detail-bars"></div>
-        <div id="top-list" class="top-list"></div>
       </aside>
     </main>
 

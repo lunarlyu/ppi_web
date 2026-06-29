@@ -4,7 +4,6 @@ const STRING_LIMIT = 1000;
 const CHRONOS_STEP = 0.05;
 const DEFAULT_CHRONOS_BOUNDS = { max: 1, min: -2 };
 const SVG_NS = "http://www.w3.org/2000/svg";
-
 const evidenceLabels = {
   nscore: "neighborhood",
   fscore: "fusion",
@@ -25,9 +24,10 @@ const state = {
   dependencyScoreThreshold: -0.5,
   edges: [],
   essential: new Set(),
+  ipdbPairs: new Map(),
   scoreMin: 0.99,
   scoreMax: 1,
-  onlyEssential: false,
+  onlyEssential: true,
   selected: null,
   source: "STRING API",
 };
@@ -58,13 +58,12 @@ const els = {
   detailTitle: document.querySelector("#detail-title"),
   detailCopy: document.querySelector("#detail-copy"),
   detailBars: document.querySelector("#detail-bars"),
-  topList: document.querySelector("#top-list"),
 };
 
 init();
 
 async function init() {
-  await Promise.all([loadEssentialProteins(), loadCache()]);
+  await Promise.all([loadEssentialProteins(), loadCache(), loadIpdbSnapshot()]);
   configureChronosControls();
   populateSuggestions();
 
@@ -121,6 +120,24 @@ async function loadCache() {
   } catch (error) {
     console.warn("Local STRING cache was not loaded", error);
     state.cache = { interactions: [] };
+  }
+}
+
+async function loadIpdbSnapshot() {
+  try {
+    const response = await fetch("data/ipdb_snapshot.json", {
+      cache: "no-store",
+    });
+    const payload = await response.json();
+    state.ipdbPairs = new Map(
+      Object.entries(payload.pairs || {}).map(([key, pair]) => {
+        const [left, right] = key.split("::");
+        return [normalizePairKey(left, right), pair];
+      }),
+    );
+  } catch (error) {
+    console.warn("IPDB RIPTAC snapshot was not loaded", error);
+    state.ipdbPairs = new Map();
   }
 }
 
@@ -325,7 +342,7 @@ function render() {
   els.graph.setAttribute("viewBox", `0 0 ${layout.width} ${layout.height}`);
   els.graph.replaceChildren();
   els.empty.hidden = edges.length > 0;
-  els.title.textContent = `${state.center} interactions`;
+  els.title.textContent = `Potential effectors for ${state.center}`;
   els.visibleCount.textContent = String(edges.length);
   els.scoreSpan.textContent = `${formatScore(state.scoreMin)}-${formatScore(
     state.scoreMax,
@@ -444,28 +461,37 @@ function renderEdge(center, node) {
 
 function renderPartner(node) {
   const isEssential = state.essential.has(normalizeProtein(node.edge.partner));
+  const riptacRows = getTargetFirstRiptacRows(node.edge);
+  const bestRiptac = riptacRows[0];
   const chronosSummary = getChronosSummary(node.edge.partner);
   const chronosLabel = chronosSummary
     ? `, mean Chronos ${formatChronosScore(chronosSummary.mean_score)}`
     : "";
+  const riptacLabel = bestRiptac
+    ? `, RIPTAC ${bestRiptac.score.toFixed(3)} for ${bestRiptac.left} to ${
+        bestRiptac.right
+      }`
+    : "";
   const group = svg("g", {
     class: `node ${node.tier}${node.hasLabel ? " has-label" : " is-particle"}${
       isEssential ? " is-essential" : ""
-    }${state.selected === node.edge.partner ? " selected" : ""}`,
+    }${bestRiptac ? " has-riptac" : ""}${
+      state.selected === node.edge.partner ? " selected" : ""
+    }`,
     transform: `translate(${node.x} ${node.y})`,
     "data-partner": node.edge.partner,
     tabindex: "0",
     role: "button",
     "aria-label": `${node.edge.partner}, score ${node.edge.score.toFixed(
       3,
-    )}${chronosLabel}`,
+    )}${chronosLabel}${riptacLabel}`,
   });
 
   group.append(
     svg("title", {
       text: `${node.edge.partner} - STRING ${node.edge.score.toFixed(
         3,
-      )}${chronosLabel.replace(",", " -")}`,
+      )}${chronosLabel.replace(",", " -")}${riptacLabel.replace(",", " -")}`,
     }),
   );
 
@@ -528,6 +554,16 @@ function renderPartner(node) {
     );
   }
 
+  if (bestRiptac) {
+    group.append(
+      svg("ellipse", {
+        class: "riptac-ring",
+        rx: node.rx + 10,
+        ry: node.ry + 10,
+      }),
+    );
+  }
+
   return group;
 }
 
@@ -555,10 +591,10 @@ function renderDetails(edges) {
   state.selected = selected?.partner || null;
 
   if (!selected) {
-    els.detailTitle.textContent = "No edge selected";
-    els.detailCopy.textContent = "Search STRING or loosen the filters to inspect edges.";
+    els.detailTitle.textContent = "No effector selected";
+    els.detailCopy.textContent =
+      "Search STRING or loosen the filters to inspect effector candidates.";
     els.detailBars.replaceChildren();
-    els.topList.replaceChildren();
     return;
   }
 
@@ -578,7 +614,7 @@ function renderDetails(edges) {
       )} scored <= ${formatChronosScore(
         state.dependencyScoreThreshold,
       )} in this DepMap matrix.`
-    : "No local DepMap Chronos score for this partner.";
+    : "No local DepMap Chronos score for this effector candidate.";
   link.href = stringUrl;
   link.target = "_blank";
   link.rel = "noreferrer";
@@ -596,19 +632,20 @@ function renderDetails(edges) {
       renderBar(label, selected.evidence?.[key] || 0),
     ),
   );
-  els.topList.replaceChildren(
-    ...edges.slice(0, 5).map((edge) => {
-      const item = document.createElement("div");
-      const name = document.createElement("strong");
-      const score = document.createElement("span");
+}
 
-      item.className = "top-item";
-      name.textContent = edge.partner;
-      score.textContent = edge.score.toFixed(3);
-      item.append(name, score);
-      return item;
-    }),
-  );
+function getTargetFirstRiptacRows(edge) {
+  const effector = normalizeProtein(edge.partner);
+  const target = normalizeProtein(edge.center || state.center);
+  const pair = state.ipdbPairs.get(normalizePairKey(effector, target));
+
+  return (pair?.riptac || [])
+    .filter(
+      (row) =>
+        normalizeProtein(row.left) === effector &&
+        normalizeProtein(row.right) === target,
+    )
+    .sort((a, b) => b.score - a.score);
 }
 
 function renderBar(label, value) {
@@ -818,7 +855,13 @@ function setLoading(isLoading) {
 }
 
 function normalizeProtein(value) {
-  return value.trim().toUpperCase();
+  return String(value || "")
+    .trim()
+    .toUpperCase();
+}
+
+function normalizePairKey(left, right) {
+  return [normalizeProtein(left), normalizeProtein(right)].sort().join("::");
 }
 
 function formatScore(value) {
