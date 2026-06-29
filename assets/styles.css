@@ -67,19 +67,16 @@ input {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-areas:
-    "controls graph"
-    "details details";
+  grid-template-areas: "controls graph";
   grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 1fr;
   gap: 18px;
   min-height: 100vh;
   padding: 18px;
 }
 
 .control-panel,
-.visual-stage,
-.detail-panel {
+.visual-stage {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background:
@@ -89,8 +86,7 @@ input {
   backdrop-filter: blur(18px);
 }
 
-.control-panel,
-.detail-panel {
+.control-panel {
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -107,13 +103,6 @@ input {
   flex-direction: column;
   min-width: 0;
   overflow: hidden;
-}
-
-.detail-panel {
-  display: grid;
-  grid-area: details;
-  grid-template-columns: minmax(220px, 0.7fr) 1fr 1fr;
-  align-items: start;
 }
 
 .eyebrow {
@@ -619,41 +608,6 @@ input[type="range"] {
   --node-glow-size: 22px;
 }
 
-.detail-bars {
-  display: grid;
-  gap: 11px;
-}
-
-.dependency-line {
-  display: block;
-  margin-top: 10px;
-  color: rgba(247, 251, 255, 0.82);
-}
-
-.bar-row {
-  display: grid;
-  grid-template-columns: 72px 1fr 42px;
-  align-items: center;
-  gap: 10px;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.bar-track {
-  height: 8px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: rgba(184, 225, 238, 0.12);
-}
-
-.bar-fill {
-  width: calc(var(--value) * 100%);
-  height: 100%;
-  border-radius: inherit;
-  background: linear-gradient(90deg, rgba(96, 217, 255, 0.62), var(--mint));
-  box-shadow: 0 0 12px rgba(142, 246, 255, 0.42);
-}
-
 @media (max-width: 1160px) {
   .app-shell {
     grid-template-columns: 320px minmax(0, 1fr);
@@ -664,20 +618,14 @@ input[type="range"] {
   .app-shell {
     grid-template-areas:
       "controls"
-      "graph"
-      "details";
+      "graph";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding: 10px;
   }
 
-  .control-panel,
-  .detail-panel {
+  .control-panel {
     padding: 18px;
-  }
-
-  .detail-panel {
-    display: flex;
   }
 
   .status-panel {

@@ -77,6 +77,14 @@
             />
           </label>
 
+          <label class="toggle-row" for="physical-only">
+            <span>
+              <strong>Only physical score</strong>
+              <small>STRING physical network; excludes predictive associations</small>
+            </span>
+            <input id="physical-only" type="checkbox" />
+          </label>
+
           <div class="filter-heading compact">
             <div>
               <span class="eyebrow">DepMap</span>
@@ -137,10 +145,6 @@
             <span id="chronos-span">all</span>
             <small>mean Chronos</small>
           </div>
-          <div>
-            <span id="data-source">STRING API</span>
-            <small>data source</small>
-          </div>
         </section>
       </section>
 
@@ -166,17 +170,6 @@
         </div>
       </section>
 
-      <aside class="detail-panel" aria-label="Selected effector candidate details">
-        <div>
-          <span class="eyebrow">Effector candidate</span>
-          <h2 id="detail-title">Pick a bubble</h2>
-          <p id="detail-copy">
-            Click any effector candidate to inspect its STRING score and DepMap
-            dependency.
-          </p>
-        </div>
-        <div id="detail-bars" class="detail-bars"></div>
-      </aside>
     </main>
 
     <script type="module" src="assets/app.js"></script>

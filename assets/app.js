@@ -25,6 +25,7 @@ const state = {
   edges: [],
   essential: new Set(),
   ipdbPairs: new Map(),
+  physicalOnly: false,
   scoreMin: 0.99,
   scoreMax: 1,
   onlyEssential: true,
@@ -52,12 +53,9 @@ const els = {
   chronosMaxValue: document.querySelector("#chronos-max-value"),
   chronosSpan: document.querySelector("#chronos-span"),
   essentialOnly: document.querySelector("#essential-only"),
+  physicalOnly: document.querySelector("#physical-only"),
   visibleCount: document.querySelector("#visible-count"),
   scoreSpan: document.querySelector("#score-span"),
-  dataSource: document.querySelector("#data-source"),
-  detailTitle: document.querySelector("#detail-title"),
-  detailCopy: document.querySelector("#detail-copy"),
-  detailBars: document.querySelector("#detail-bars"),
 };
 
 init();
@@ -76,6 +74,11 @@ async function init() {
     state.onlyEssential = els.essentialOnly.checked;
     state.selected = null;
     render();
+  });
+  els.physicalOnly.addEventListener("change", () => {
+    state.physicalOnly = els.physicalOnly.checked;
+    state.selected = null;
+    searchCurrentProtein();
   });
   els.min.addEventListener("input", syncScoreControls);
   els.max.addEventListener("input", syncScoreControls);
@@ -251,15 +254,20 @@ async function searchCurrentProtein() {
   state.selected = null;
   state.scoreMin = Number(els.min.value);
   state.scoreMax = Number(els.max.value);
+  state.physicalOnly = els.physicalOnly.checked;
 
   setLoading(true);
 
   try {
-    state.edges = await fetchStringInteractions(query, state.scoreMin);
-    state.source = "STRING API";
+    state.edges = await fetchStringInteractions(
+      query,
+      state.scoreMin,
+      currentNetworkType(),
+  );
+    state.source = state.physicalOnly ? "STRING physical" : "STRING API";
   } catch (error) {
-    console.warn("STRING API failed; falling back to local cache", error);
-    state.edges = findCachedInteractions(query);
+    console.warn("STRING API failed", error);
+    state.edges = state.physicalOnly ? [] : findCachedInteractions(query);
     state.source = state.edges.length ? "local cache" : "no data";
   } finally {
     setLoading(false);
@@ -267,9 +275,10 @@ async function searchCurrentProtein() {
   }
 }
 
-async function fetchStringInteractions(protein, minScore) {
+async function fetchStringInteractions(protein, minScore, networkType) {
   const params = new URLSearchParams({
     identifier: protein,
+    network_type: networkType,
     species: "9606",
     required_score: String(Math.round(minScore * 1000)),
     limit: String(STRING_LIMIT),
@@ -282,6 +291,10 @@ async function fetchStringInteractions(protein, minScore) {
   }
 
   return parseStringTsv(await response.text(), protein);
+}
+
+function currentNetworkType() {
+  return state.physicalOnly ? "physical" : "functional";
 }
 
 function parseStringTsv(tsv, query) {
@@ -348,8 +361,6 @@ function render() {
     state.scoreMax,
   )}`;
   els.chronosSpan.textContent = formatChronosWindow();
-  els.dataSource.textContent = state.source;
-  renderDetails(edges);
 
   if (!edges.length) {
     renderCenter(layout.center, state.center);
@@ -585,55 +596,6 @@ function renderCenter(center, label) {
   els.graph.append(group);
 }
 
-function renderDetails(edges) {
-  const selected =
-    edges.find((edge) => edge.partner === state.selected) || edges[0] || null;
-  state.selected = selected?.partner || null;
-
-  if (!selected) {
-    els.detailTitle.textContent = "No effector selected";
-    els.detailCopy.textContent =
-      "Search STRING or loosen the filters to inspect effector candidates.";
-    els.detailBars.replaceChildren();
-    return;
-  }
-
-  const stringUrl = `${STRING_LINK}${selected.partnerStringId || selected.partner}`;
-  const chronosSummary = getChronosSummary(selected.partner);
-  const score = document.createElement("strong");
-  const chronos = document.createElement("span");
-  const link = document.createElement("a");
-
-  score.textContent = `STRING score ${selected.score.toFixed(3)}`;
-  chronos.className = "dependency-line";
-  chronos.textContent = chronosSummary
-    ? `Mean Chronos ${formatChronosScore(
-        chronosSummary.mean_score,
-      )} across ${chronosSummary.profiled_cell_lines} cell lines; ${formatPercent(
-        chronosSummary.dependency_fraction,
-      )} scored <= ${formatChronosScore(
-        state.dependencyScoreThreshold,
-      )} in this DepMap matrix.`
-    : "No local DepMap Chronos score for this effector candidate.";
-  link.href = stringUrl;
-  link.target = "_blank";
-  link.rel = "noreferrer";
-  link.textContent = "Open in STRING";
-
-  els.detailTitle.textContent = selected.partner;
-  els.detailCopy.replaceChildren(
-    score,
-    document.createTextNode(` with ${state.center}. `),
-    link,
-    chronos,
-  );
-  els.detailBars.replaceChildren(
-    ...Object.entries(evidenceLabels).map(([key, label]) =>
-      renderBar(label, selected.evidence?.[key] || 0),
-    ),
-  );
-}
-
 function getTargetFirstRiptacRows(edge) {
   const effector = normalizeProtein(edge.partner);
   const target = normalizeProtein(edge.center || state.center);
@@ -646,17 +608,6 @@ function getTargetFirstRiptacRows(edge) {
         normalizeProtein(row.right) === target,
     )
     .sort((a, b) => b.score - a.score);
-}
-
-function renderBar(label, value) {
-  const row = document.createElement("div");
-  row.className = "bar-row";
-  row.innerHTML = `
-    <span>${label}</span>
-    <div class="bar-track"><div class="bar-fill" style="--value:${value}"></div></div>
-    <strong>${value.toFixed(2)}</strong>
-  `;
-  return row;
 }
 
 function layoutConstellation(edges, viewportWidth, viewportHeight) {
@@ -821,7 +772,6 @@ function selectNode(event) {
     .querySelectorAll(".node.selected")
     .forEach((selectedNode) => selectedNode.classList.remove("selected"));
   node.classList.add("selected");
-  renderDetails(filteredEdges());
 }
 
 function centerGraph() {
