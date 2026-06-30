@@ -113,7 +113,7 @@ def main() -> None:
     parser.add_argument(
         "--score-threshold",
         type=float,
-        default=-0.5,
+        default=-1.0,
         help="A gene counts as dependent in one cell line at or below this score",
     )
     parser.add_argument(

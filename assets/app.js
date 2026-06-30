@@ -20,15 +20,19 @@ const state = {
   chronos: new Map(),
   chronosBounds: { ...DEFAULT_CHRONOS_BOUNDS },
   chronosMax: DEFAULT_CHRONOS_BOUNDS.max,
-  chronosMin: DEFAULT_CHRONOS_BOUNDS.min,
-  dependencyScoreThreshold: -0.5,
+  dependencyScoreThreshold: -1.0,
   edges: [],
   essential: new Set(),
+  ipdbEvidence: new Map(),
   ipdbPairs: new Map(),
+  ipdbProteins: new Map(),
+  knownLigands: new Map(),
+  knownLigandOnly: false,
   physicalOnly: false,
   scoreMin: 0.99,
   scoreMax: 1,
   onlyEssential: true,
+  activeCard: null,
   selected: null,
   source: "STRING API",
 };
@@ -41,27 +45,33 @@ const els = {
   graph: document.querySelector("#ppi-graph"),
   title: document.querySelector("#graph-title"),
   empty: document.querySelector("#empty-state"),
+  knownLigandOnly: document.querySelector("#known-ligand-only"),
   loading: document.querySelector("#loading-pill"),
   apply: document.querySelector("#apply-filters"),
   min: document.querySelector("#min-score"),
   max: document.querySelector("#max-score"),
   minValue: document.querySelector("#min-score-value"),
   maxValue: document.querySelector("#max-score-value"),
-  chronosMin: document.querySelector("#chronos-min"),
   chronosMax: document.querySelector("#chronos-max"),
-  chronosMinValue: document.querySelector("#chronos-min-value"),
   chronosMaxValue: document.querySelector("#chronos-max-value"),
-  chronosSpan: document.querySelector("#chronos-span"),
   essentialOnly: document.querySelector("#essential-only"),
   physicalOnly: document.querySelector("#physical-only"),
+  targetCard: document.querySelector("#target-card"),
+  targetClose: document.querySelector("#target-card-close"),
+  targetName: document.querySelector("#target-name"),
+  targetSections: document.querySelector("#target-card-sections"),
   visibleCount: document.querySelector("#visible-count"),
-  scoreSpan: document.querySelector("#score-span"),
 };
 
 init();
 
 async function init() {
-  await Promise.all([loadEssentialProteins(), loadCache(), loadIpdbSnapshot()]);
+  await Promise.all([
+    loadEssentialProteins(),
+    loadCache(),
+    loadIpdbData(),
+    loadKnownLigands(),
+  ]);
   configureChronosControls();
   populateSuggestions();
 
@@ -75,6 +85,11 @@ async function init() {
     state.selected = null;
     render();
   });
+  els.knownLigandOnly.addEventListener("change", () => {
+    state.knownLigandOnly = els.knownLigandOnly.checked;
+    state.selected = null;
+    render();
+  });
   els.physicalOnly.addEventListener("change", () => {
     state.physicalOnly = els.physicalOnly.checked;
     state.selected = null;
@@ -82,8 +97,8 @@ async function init() {
   });
   els.min.addEventListener("input", syncScoreControls);
   els.max.addEventListener("input", syncScoreControls);
-  els.chronosMin.addEventListener("input", syncChronosControls);
   els.chronosMax.addEventListener("input", syncChronosControls);
+  els.targetClose.addEventListener("click", closeProteinCard);
   els.graph.addEventListener("click", selectNode);
   els.graph.addEventListener("keydown", selectNode);
   window.addEventListener("resize", render);
@@ -105,7 +120,7 @@ async function loadEssentialProteins() {
       ]),
     );
     state.chronosBounds = chronosBoundsFromPayload(payload);
-    state.dependencyScoreThreshold = payload.meta?.score_threshold ?? -0.5;
+    state.dependencyScoreThreshold = payload.meta?.score_threshold ?? -1.0;
   } catch (error) {
     console.warn("DepMap dependency dataset was not loaded", error);
     state.chronos = new Map();
@@ -126,21 +141,43 @@ async function loadCache() {
   }
 }
 
-async function loadIpdbSnapshot() {
+async function loadIpdbData() {
   try {
-    const response = await fetch("data/ipdb_snapshot.json", {
+    const response = await fetch("data/ipdb_processed.json", {
       cache: "no-store",
     });
     const payload = await response.json();
+    state.ipdbEvidence = normalizeEntryMap(payload.evidence || {});
     state.ipdbPairs = new Map(
       Object.entries(payload.pairs || {}).map(([key, pair]) => {
         const [left, right] = key.split("::");
         return [normalizePairKey(left, right), pair];
       }),
     );
+    state.ipdbProteins = normalizeEntryMap(payload.proteins || {});
   } catch (error) {
-    console.warn("IPDB RIPTAC snapshot was not loaded", error);
+    console.warn("Processed IPDB data was not loaded", error);
+    state.ipdbEvidence = new Map();
     state.ipdbPairs = new Map();
+    state.ipdbProteins = new Map();
+  }
+}
+
+async function loadKnownLigands() {
+  try {
+    const response = await fetch("data/known_ligands.json", {
+      cache: "no-store",
+    });
+    const payload = await response.json();
+    state.knownLigands = new Map(
+      Object.entries(payload.ligands || {}).map(([symbol, binding]) => [
+        normalizeProtein(symbol),
+        binding,
+      ]),
+    );
+  } catch (error) {
+    console.warn("BindingDB known ligand index was not loaded", error);
+    state.knownLigands = new Map();
   }
 }
 
@@ -168,17 +205,14 @@ function populateSuggestions() {
 function configureChronosControls() {
   const { max, min } = state.chronosBounds;
 
-  [els.chronosMin, els.chronosMax].forEach((input) => {
-    input.disabled = state.chronos.size === 0;
-    input.min = min.toFixed(2);
-    input.max = max.toFixed(2);
-    input.step = CHRONOS_STEP.toFixed(2);
-  });
+  els.chronosMax.disabled = state.chronos.size === 0;
+  els.chronosMax.min = min.toFixed(2);
+  els.chronosMax.max = max.toFixed(2);
+  els.chronosMax.step = CHRONOS_STEP.toFixed(2);
 
-  els.chronosMin.value = min.toFixed(2);
-  els.chronosMax.value = max.toFixed(2);
-  state.chronosMin = min;
-  state.chronosMax = max;
+  const defaultMax = clamp(state.dependencyScoreThreshold, min, max);
+  els.chronosMax.value = defaultMax.toFixed(2);
+  state.chronosMax = defaultMax;
   renderChronosControls();
 }
 
@@ -223,28 +257,14 @@ function syncScoreControls(event) {
   render();
 }
 
-function syncChronosControls(event) {
-  const min = Number(els.chronosMin.value);
-  const max = Number(els.chronosMax.value);
-
-  if (min > max && event.target === els.chronosMin) {
-    els.chronosMax.value = min.toFixed(2);
-  }
-
-  if (max < min && event.target === els.chronosMax) {
-    els.chronosMin.value = max.toFixed(2);
-  }
-
-  state.chronosMin = Number(els.chronosMin.value);
+function syncChronosControls() {
   state.chronosMax = Number(els.chronosMax.value);
   renderChronosControls();
   render();
 }
 
 function renderChronosControls() {
-  els.chronosMinValue.textContent = formatChronosScore(state.chronosMin);
   els.chronosMaxValue.textContent = formatChronosScore(state.chronosMax);
-  els.chronosSpan.textContent = formatChronosWindow();
 }
 
 async function searchCurrentProtein() {
@@ -252,6 +272,7 @@ async function searchCurrentProtein() {
   els.input.value = query;
   state.center = query;
   state.selected = null;
+  closeProteinCard();
   state.scoreMin = Number(els.min.value);
   state.scoreMax = Number(els.max.value);
   state.physicalOnly = els.physicalOnly.checked;
@@ -357,10 +378,7 @@ function render() {
   els.empty.hidden = edges.length > 0;
   els.title.textContent = `Potential effectors for ${state.center}`;
   els.visibleCount.textContent = String(edges.length);
-  els.scoreSpan.textContent = `${formatScore(state.scoreMin)}-${formatScore(
-    state.scoreMax,
-  )}`;
-  els.chronosSpan.textContent = formatChronosWindow();
+  renderProteinCard(edges);
 
   if (!edges.length) {
     renderCenter(layout.center, state.center);
@@ -390,24 +408,334 @@ function filteredEdges() {
     const chronosScore = getChronosSummary(edge.partner)?.mean_score;
     const chronosMatch =
       !isChronosActive ||
-      (Number.isFinite(chronosScore) &&
-        chronosScore >= state.chronosMin &&
-        chronosScore <= state.chronosMax);
+      (Number.isFinite(chronosScore) && chronosScore <= state.chronosMax);
     const essentialMatch =
       !state.onlyEssential || state.essential.has(normalizeProtein(edge.partner));
-    return scoreMatch && chronosMatch && essentialMatch;
+    const ligandMatch =
+      !state.knownLigandOnly || hasKnownLigand(edge.partner);
+    return scoreMatch && chronosMatch && essentialMatch && ligandMatch;
   });
+}
+
+function findVisibleEdge(edges, partner) {
+  const symbol = normalizeProtein(partner);
+  return edges.find((edge) => normalizeProtein(edge.partner) === symbol);
+}
+
+function hasKnownLigand(symbol) {
+  return state.knownLigands.has(normalizeProtein(symbol));
 }
 
 function getChronosSummary(symbol) {
   return state.chronos.get(normalizeProtein(symbol));
 }
 
-function chronosFilterActive() {
-  return (
-    state.chronosMin > state.chronosBounds.min + 0.0001 ||
-    state.chronosMax < state.chronosBounds.max - 0.0001
+function renderProteinCard(edges) {
+  if (state.activeCard === "effector" && state.selected) {
+    const edge = findVisibleEdge(edges, state.selected);
+
+    if (edge) {
+      renderEffectorCard(edge);
+      return;
+    }
+
+    closeProteinCard();
+  }
+
+  renderTargetCard();
+}
+
+function renderTargetCard() {
+  const symbol = normalizeProtein(state.center);
+  const protein = state.ipdbProteins.get(symbol);
+  const evidence = state.ipdbEvidence.get(symbol) || {};
+
+  els.targetCard.classList.remove("is-effector-card");
+  els.targetCard.setAttribute("aria-label", "Target protein card");
+  els.targetName.textContent = protein?.name || symbol;
+  els.targetSections.replaceChildren(
+    renderCancerTypesSection(evidence.target_scores, evidence.expression),
+    renderBindingSection(evidence.best_binding),
+    renderLiteraturePocketsSection(evidence.literature_pockets),
+    renderCompartmentsSection(evidence.compartments),
   );
+}
+
+function renderEffectorCard(edge) {
+  const target = normalizeProtein(state.center);
+  const effector = normalizeProtein(edge.partner);
+  const protein = state.ipdbProteins.get(effector);
+  const evidence = state.ipdbEvidence.get(effector) || {};
+
+  els.targetCard.classList.add("is-effector-card");
+  els.targetCard.setAttribute("aria-label", "Effector protein card");
+  els.targetName.textContent = protein?.name || effector;
+  els.targetSections.replaceChildren(
+    renderStringSection(edge),
+    renderDepMapSection(effector),
+    renderSharedCompartmentsSection(effector, target),
+    renderBindingSection(evidence.best_binding),
+    renderLiteraturePocketsSection(evidence.literature_pockets),
+    renderRiptacSection(edge),
+  );
+}
+
+function renderStringSection(edge) {
+  const section = cardSection(`STRING interaction with ${state.center}`);
+  const channels = Object.entries(edge.evidence || {})
+    .filter(([, value]) => Number(value) > 0)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 2)
+    .map(([key, value]) => `${evidenceLabels[key]} ${formatEvidence(value)}`);
+
+  section.append(
+    cardValue(`Confidence: ${edge.score.toFixed(3)}`),
+    cardMeta(channels.join(" \u00b7 ")),
+  );
+  return section;
+}
+
+function renderDepMapSection(symbol) {
+  const section = cardSection("DepMap essentiality");
+  const summary = getChronosSummary(symbol);
+
+  if (!summary) {
+    section.append(cardValue("No DepMap evidence"));
+    return section;
+  }
+
+  section.append(
+    cardValue(`Mean Chronos: ${formatChronosScore(summary.mean_score)}`),
+    cardMeta(
+      `${formatPercent(summary.dependency_fraction)} cell lines <= ${formatChronosScore(
+        state.dependencyScoreThreshold,
+      )}`,
+    ),
+  );
+  return section;
+}
+
+function renderSharedCompartmentsSection(effector, target) {
+  const section = cardSection("Shared compartments");
+  const effectorCompartments = knownCompartments(
+    state.ipdbEvidence.get(effector)?.compartments,
+  );
+  const targetCompartments = knownCompartments(
+    state.ipdbEvidence.get(target)?.compartments,
+  );
+
+  if (!effectorCompartments.length || !targetCompartments.length) {
+    section.append(cardValue("Insufficient compartment annotation"));
+    return section;
+  }
+
+  const targetSet = new Set(targetCompartments);
+  const shared = effectorCompartments.filter((compartment) =>
+    targetSet.has(compartment),
+  );
+
+  if (!shared.length) {
+    section.append(cardValue("No shared compartment"));
+    return section;
+  }
+
+  section.append(renderCompartmentList(shared));
+  return section;
+}
+
+function renderRiptacSection(edge) {
+  const section = cardSection("Target-first RIPTAC");
+  const bestRiptac = getTargetFirstRiptacRows(edge)[0];
+
+  section.classList.add("is-wide");
+
+  if (!bestRiptac) {
+    section.append(
+      cardValue(`No ${edge.partner} -> ${state.center} annotation`),
+    );
+    return section;
+  }
+
+  section.append(
+    cardValue(`IPDB pair score: ${bestRiptac.score.toFixed(3)}`),
+    cardMeta(
+      `${bestRiptac.left} -> ${bestRiptac.right} \u00b7 ${formatCancerType(
+        bestRiptac.cancer_type,
+      )}`,
+    ),
+  );
+  return section;
+}
+
+function renderCancerTypesSection(targetScores = [], expression) {
+  const section = cardSection("Top 3 cancer types");
+  const scores = Array.isArray(targetScores)
+    ? targetScores
+        .filter((targetScore) => Number.isFinite(Number(targetScore.score)))
+        .slice(0, 3)
+    : [];
+
+  section.classList.add("is-wide");
+
+  if (scores.length) {
+    section.append(renderTargetScoreList(scores));
+    return section;
+  }
+
+  if (expression) {
+    section.append(
+      cardValue(formatCancerType(expression.cancer_type)),
+      cardMeta(formatExpressionMeta(expression)),
+    );
+    return section;
+  }
+
+  section.append(cardValue("No IPDB cancer-type evidence"));
+  return section;
+}
+
+function renderTargetScoreList(scores) {
+  const list = document.createElement("ol");
+  list.className = "card-metric-list";
+  list.replaceChildren(
+    ...scores.map((targetScore) => {
+      const item = document.createElement("li");
+      const cancerType = document.createElement("span");
+      const score = document.createElement("strong");
+
+      cancerType.textContent = formatCancerType(targetScore.cancer_type);
+      score.textContent = formatMetric(targetScore.score);
+      item.append(cancerType, score);
+
+      return item;
+    }),
+  );
+
+  return list;
+}
+
+function renderLiteraturePocketsSection(literaturePockets = []) {
+  const section = cardSection("Literature pockets");
+  const pockets = Array.isArray(literaturePockets)
+    ? literaturePockets.slice(0, 3)
+    : [];
+
+  if (!pockets.length) {
+    section.append(cardValue("No literature pocket evidence"));
+    return section;
+  }
+
+  const list = document.createElement("ol");
+  list.className = "card-metric-list";
+  list.replaceChildren(
+    ...pockets.map((pocket) => {
+      const item = document.createElement("li");
+      const label = document.createElement("span");
+      const ligandabilityScore = Number(pocket.ligandability_score);
+
+      label.textContent =
+        pocket.evidence_label || formatLabel(pocket.pocket_type);
+      item.append(label);
+
+      if (Number.isFinite(ligandabilityScore)) {
+        const score = document.createElement("strong");
+        score.textContent = formatMetric(ligandabilityScore);
+        item.append(score);
+      }
+
+      return item;
+    }),
+  );
+
+  section.append(list);
+  return section;
+}
+
+function formatExpressionMeta(expression) {
+  const score = Number(expression.overexpression_score);
+  const foldChange = Number(expression.log2_fold_change);
+  return [
+    Number.isFinite(score) ? `Overexpression score: ${formatMetric(score)}` : null,
+    expression.best_assay ? String(expression.best_assay).toUpperCase() : null,
+    Number.isFinite(foldChange) ? `log2FC ${formatMetric(foldChange)}` : null,
+  ].filter(Boolean).join(" \u00b7 ");
+}
+
+function renderBindingSection(binding) {
+  const section = cardSection("Best BindingDB binder");
+
+  if (!binding) {
+    section.append(cardValue("No BindingDB hit"));
+    return section;
+  }
+
+  const value = Number(binding.value_nm);
+  const affinity = Number.isFinite(value) ? `${formatNm(value)} nM` : null;
+  const meta = [affinity, binding.assay_type].filter(Boolean);
+
+  section.append(
+    cardValue(binding.ligand_name || binding.ligand_id || "BindingDB hit"),
+    cardMeta(meta.join(" \u00b7 ")),
+  );
+  return section;
+}
+
+function renderCompartmentsSection(compartments = []) {
+  const known = knownCompartments(compartments);
+  const section = cardSection("Compartments");
+
+  if (!known.length) {
+    section.append(cardValue("No compartment annotation"));
+    return section;
+  }
+
+  section.append(renderCompartmentList(known));
+  return section;
+}
+
+function renderCompartmentList(compartments) {
+  const chips = document.createElement("div");
+  chips.className = "compartment-list";
+  chips.replaceChildren(
+    ...compartments.map((compartment) => {
+      const chip = document.createElement("span");
+      chip.textContent = formatLabel(compartment);
+      return chip;
+    }),
+  );
+
+  return chips;
+}
+
+function cardSection(label) {
+  const section = document.createElement("div");
+  section.className = "target-card-section";
+  section.append(cardLabel(label));
+  return section;
+}
+
+function cardLabel(text) {
+  const label = document.createElement("span");
+  label.className = "target-card-label";
+  label.textContent = text;
+  return label;
+}
+
+function cardValue(text) {
+  const value = document.createElement("strong");
+  value.textContent = text;
+  return value;
+}
+
+function cardMeta(text) {
+  const meta = document.createElement("small");
+  meta.textContent = text;
+  meta.hidden = !text;
+  return meta;
+}
+
+function chronosFilterActive() {
+  return state.chronosMax < state.chronosBounds.max - 0.0001;
 }
 
 function renderSpaceDust(layout) {
@@ -493,6 +821,9 @@ function renderPartner(node) {
     "data-partner": node.edge.partner,
     tabindex: "0",
     role: "button",
+    "aria-expanded": String(
+      state.activeCard === "effector" && state.selected === node.edge.partner,
+    ),
     "aria-label": `${node.edge.partner}, score ${node.edge.score.toFixed(
       3,
     )}${chronosLabel}${riptacLabel}`,
@@ -582,8 +913,13 @@ function renderCenter(center, label) {
   const group = svg("g", {
     class: "center-node",
     transform: `translate(${center.x} ${center.y})`,
+    tabindex: "0",
+    role: "button",
+    "aria-expanded": String(state.activeCard === "target"),
+    "aria-label": `Open target protein card for ${label}`,
   });
   group.append(
+    svg("title", { text: `Open target protein card for ${label}` }),
     svg("circle", { class: "center-orbit", r: 76 }),
     svg("circle", { class: "center-halo", r: 56 }),
     svg("circle", { class: "center-core", r: 42 }),
@@ -763,15 +1099,62 @@ function visualStrength(score, index, total, minScore, maxScore) {
 function selectNode(event) {
   if (event.type === "keydown" && !["Enter", " "].includes(event.key)) return;
 
+  const centerNode = event.target.closest(".center-node");
+  if (centerNode) {
+    event.preventDefault();
+    clearSelectedNodes();
+    openProteinCard("target");
+    renderTargetCard();
+    return;
+  }
+
   const node = event.target.closest(".node");
   if (!node) return;
 
   event.preventDefault();
+  const edge = findVisibleEdge(filteredEdges(), node.dataset.partner);
+  if (!edge) return;
+
+  clearSelectedNodes();
   state.selected = node.dataset.partner;
+  openProteinCard("effector");
+  renderEffectorCard(edge);
+  node.classList.add("selected");
+}
+
+function openProteinCard(type) {
+  state.activeCard = type;
+  els.targetCard.hidden = false;
+  syncCardExpansion();
+}
+
+function closeProteinCard() {
+  clearSelectedNodes();
+  state.activeCard = null;
+  els.targetCard.hidden = true;
+  syncCardExpansion();
+}
+
+function clearSelectedNodes() {
+  state.selected = null;
   els.graph
     .querySelectorAll(".node.selected")
     .forEach((selectedNode) => selectedNode.classList.remove("selected"));
-  node.classList.add("selected");
+}
+
+function syncCardExpansion() {
+  els.graph
+    .querySelector(".center-node")
+    ?.setAttribute("aria-expanded", String(state.activeCard === "target"));
+  els.graph.querySelectorAll(".node").forEach((node) => {
+    node.setAttribute(
+      "aria-expanded",
+      String(
+        state.activeCard === "effector" &&
+          state.selected === node.dataset.partner,
+      ),
+    );
+  });
 }
 
 function centerGraph() {
@@ -810,6 +1193,21 @@ function normalizeProtein(value) {
     .toUpperCase();
 }
 
+function normalizeEntryMap(entries) {
+  return new Map(
+    Object.entries(entries).map(([symbol, value]) => [
+      normalizeProtein(symbol),
+      value,
+    ]),
+  );
+}
+
+function knownCompartments(compartments = []) {
+  return compartments.filter(
+    (compartment) => compartment && compartment !== "unknown",
+  );
+}
+
 function normalizePairKey(left, right) {
   return [normalizeProtein(left), normalizeProtein(right)].sort().join("::");
 }
@@ -818,20 +1216,36 @@ function formatScore(value) {
   return value.toFixed(2);
 }
 
-function formatChronosWindow() {
-  if (!state.chronos.size) return "no data";
-  if (!chronosFilterActive()) return "all";
-  return `${formatChronosScore(state.chronosMin)} to ${formatChronosScore(
-    state.chronosMax,
-  )}`;
-}
-
 function formatChronosScore(value) {
   return Number(value).toFixed(2);
 }
 
+function formatEvidence(value) {
+  return Number(value).toFixed(2);
+}
+
+function formatMetric(value) {
+  return Number(value).toFixed(2);
+}
+
+function formatNm(value) {
+  if (value < 0.01) return value.toPrecision(1);
+  if (value < 1) return value.toPrecision(2);
+  if (value < 10) return value.toFixed(2);
+  if (value < 100) return value.toFixed(1);
+  return value.toLocaleString(undefined, { maximumFractionDigits: 0 });
+}
+
 function formatPercent(value) {
   return `${(Number(value) * 100).toFixed(1)}%`;
+}
+
+function formatCancerType(value) {
+  return formatLabel(value || "Unknown cancer type");
+}
+
+function formatLabel(value) {
+  return String(value || "").replaceAll("_", " ");
 }
 
 function svg(tag, attrs = {}) {

@@ -8,7 +8,7 @@
       content="Explore STRING protein-protein interactions as an interactive star map."
     />
     <title>STRING PPI Star Map</title>
-    <link rel="stylesheet" href="assets/styles.css?v=2ce391b" />
+    <link rel="stylesheet" href="assets/styles.css?v=methods" />
   </head>
   <body>
     <main class="app-shell" aria-live="polite">
@@ -39,13 +39,21 @@
         <section class="filters" aria-label="Filters">
           <div class="filter-heading">
             <div>
-              <span class="eyebrow">Filters</span>
+              <span class="eyebrow">STRING</span>
               <h2>Confidence window</h2>
             </div>
             <button id="apply-filters" type="button" class="ghost-button">
               Apply
             </button>
           </div>
+
+          <label class="toggle-row" for="physical-only">
+            <span>
+              <strong>Only physical score</strong>
+              <small>STRING physical network; excludes predictive associations</small>
+            </span>
+            <input id="physical-only" type="checkbox" />
+          </label>
 
           <label class="range-control" for="min-score">
             <span>
@@ -77,41 +85,31 @@
             />
           </label>
 
-          <label class="toggle-row" for="physical-only">
+          <div class="filter-heading compact">
+            <div>
+              <span class="eyebrow">DepMap</span>
+            </div>
+          </div>
+
+          <label class="toggle-row" for="essential-only">
             <span>
-              <strong>Only physical score</strong>
-              <small>STRING physical network; excludes predictive associations</small>
+              <strong>Only essential proteins</strong>
+              <small>Chronos/CERES &lt;= -1.0 in >=50% cell lines</small>
             </span>
-            <input id="physical-only" type="checkbox" />
+            <input id="essential-only" type="checkbox" checked />
           </label>
 
           <div class="filter-heading compact">
             <div>
-              <span class="eyebrow">DepMap</span>
               <h2>Mean Chronos score</h2>
               <small>lower score = stronger dependency</small>
             </div>
           </div>
 
-          <label class="range-control" for="chronos-min">
-            <span>
-              Lower bound
-              <strong id="chronos-min-value">-2.00</strong>
-            </span>
-            <input
-              id="chronos-min"
-              type="range"
-              min="-2"
-              max="1"
-              step="0.05"
-              value="-2"
-            />
-          </label>
-
           <label class="range-control" for="chronos-max">
             <span>
               Upper bound
-              <strong id="chronos-max-value">1.00</strong>
+              <strong id="chronos-max-value">-1.00</strong>
             </span>
             <input
               id="chronos-max"
@@ -119,43 +117,62 @@
               min="-2"
               max="1"
               step="0.05"
-              value="1"
+              value="-1"
             />
           </label>
 
-          <label class="toggle-row" for="essential-only">
+          <div class="filter-heading compact">
+            <div>
+              <span class="eyebrow">BindingDB</span>
+            </div>
+          </div>
+
+          <label class="toggle-row" for="known-ligand-only">
             <span>
-              <strong>Only essential proteins</strong>
-              <small>local DepMap Chronos/CERES dependency list</small>
+              <strong>Only known ligand</strong>
+              <small>BindingDB best binding for effector candidates</small>
             </span>
-            <input id="essential-only" type="checkbox" checked />
+            <input id="known-ligand-only" type="checkbox" />
           </label>
         </section>
 
-        <section class="status-panel" aria-label="Network summary">
-          <div>
-            <span id="visible-count">0</span>
-            <small>effector candidates</small>
-          </div>
-          <div>
-            <span id="score-span">0.99-1.00</span>
-            <small>score range</small>
-          </div>
-          <div>
-            <span id="chronos-span">all</span>
-            <small>mean Chronos</small>
-          </div>
-        </section>
       </section>
 
       <section class="visual-stage">
         <div class="graph-toolbar">
           <div>
             <span class="eyebrow">Network</span>
-            <h2 id="graph-title">TP53 interactions</h2>
+            <div class="graph-title-row">
+              <h2 id="graph-title">TP53 interactions</h2>
+              <div class="effector-count" aria-label="Filtered effector candidates">
+                <span id="visible-count">0</span>
+                <small>effector candidates</small>
+              </div>
+            </div>
           </div>
           <div id="loading-pill" class="loading-pill" hidden>Loading STRING</div>
         </div>
+
+        <section
+          id="target-card"
+          class="target-card"
+          aria-label="Target protein card"
+          hidden
+        >
+          <div>
+            <span class="target-card-kicker">Target protein</span>
+            <h3 id="target-name">TP53</h3>
+          </div>
+          <div id="target-card-sections" class="target-card-sections"></div>
+          <button
+            id="target-card-close"
+            class="target-card-close"
+            type="button"
+            aria-label="Close protein card"
+          >
+            x
+          </button>
+        </section>
 
         <div class="graph-wrap">
           <svg
@@ -170,8 +187,98 @@
         </div>
       </section>
 
+      <details class="methodology-panel">
+        <summary>
+          <span>
+            <span class="eyebrow">Datasets &amp; Scores</span>
+            <strong>Dataset and score definitions</strong>
+          </span>
+          <span class="methodology-toggle" aria-hidden="true"></span>
+        </summary>
+
+        <div class="methodology-content">
+          <section class="methodology-section">
+            <h2>Datasets</h2>
+            <dl>
+              <div>
+                <dt>STRING protein-protein interaction</dt>
+                <dd>
+                  Live Homo sapiens STRING API interaction partners. The
+                  confidence window filters STRING's combined interaction score.
+                  Only physical score requests direct physical PPI evidence;
+                  otherwise STRING can include broader functional and predictive
+                  associations.
+                </dd>
+              </div>
+              <div>
+                <dt>DepMap CRISPR gene effect</dt>
+                <dd>
+                  Local CRISPRGeneEffect matrix. Mean Chronos is the average
+                  gene dependency score across cell lines; lower means stronger
+                  dependency. Essential proteins are genes with Chronos/CERES
+                  &lt;= -1.0 in &gt;=50% of scored cell lines.
+                </dd>
+              </div>
+              <div>
+                <dt>IPDB, BindingDB, literature pockets</dt>
+                <dd>
+                  Local IPDB snapshot plus IPDB exports from the downloaded
+                  colleague project. BindingDB gives each candidate's best
+                  binder; literature_pockets.tsv adds curated pocket labels and
+                  ligandability scores.
+                </dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="methodology-section">
+            <h2>Score glossary</h2>
+            <dl>
+              <div>
+                <dt>STRING confidence</dt>
+                <dd>
+                  STRING combined edge confidence, 0-1. Channel scores such as
+                  experiments, databases, text mining, coexpression,
+                  neighborhood, fusion, and cooccurrence are per-evidence
+                  STRING subscores.
+                </dd>
+              </div>
+              <div>
+                <dt>Mean Chronos</dt>
+                <dd>
+                  Mean DepMap CRISPR gene-effect score across cell lines. More
+                  negative values indicate stronger dependency.
+                </dd>
+              </div>
+              <div>
+                <dt>BindingDB nM</dt>
+                <dd>
+                  Best IPDB BindingDB affinity for the protein. Lower nM values
+                  indicate stronger measured binding.
+                </dd>
+              </div>
+              <div>
+                <dt>RIPTAC scores</dt>
+                <dd>
+                  Target cancer scores and effector-to-target pair scores come
+                  from the colleague-defined IPDB scorer; exact formula TBD by
+                  IPDB scorer.
+                </dd>
+              </div>
+              <div>
+                <dt>Literature pocket ligandability</dt>
+                <dd>
+                  Curated pocket-level ligandability from literature_pockets.tsv.
+                  Exact scoring rubric TBD by IPDB scorer.
+                </dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+      </details>
+
     </main>
 
-    <script type="module" src="assets/app.js?v=2ce391b"></script>
+    <script type="module" src="assets/app.js?v=methods"></script>
   </body>
 </html>

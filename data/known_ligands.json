@@ -1,0 +1,5232 @@
+{
+  "ligands": {
+    "AANAT": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 32.0
+    },
+    "ABCB1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1540.0
+    },
+    "ABCB11": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 300000.0
+    },
+    "ABCC1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3530.0
+    },
+    "ABCG2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 790.0
+    },
+    "ABL1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.03
+    },
+    "ABL2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 260.0
+    },
+    "ABRAXAS2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2300.0
+    },
+    "ACE": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "ACE2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.13
+    },
+    "ACHE": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.008
+    },
+    "ACVR1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 26.7
+    },
+    "ADA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.033
+    },
+    "ADAM17": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.06
+    },
+    "ADAMTS4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 86.0
+    },
+    "ADAMTS5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "ADORA1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "ADORA2A": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.19
+    },
+    "ADORA2B": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 54.5
+    },
+    "ADORA3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.22
+    },
+    "ADRA1A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 30000.0
+    },
+    "ADRB1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.62
+    },
+    "ADRB2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.14
+    },
+    "ADRB3": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "ADTRP": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1300.0
+    },
+    "AEBP2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 20.0
+    },
+    "AGA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 560000.0
+    },
+    "AIG1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 170.0
+    },
+    "AKR1A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1940.0
+    },
+    "AKR1B1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.84
+    },
+    "AKR1B10": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.2
+    },
+    "AKR1C1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.9
+    },
+    "AKR1C2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 70.0
+    },
+    "AKR1C3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.2
+    },
+    "AKR1C4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 24000.0
+    },
+    "AKT1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.16
+    },
+    "AKT2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "AKT3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9.0
+    },
+    "ALDH1A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8300.0
+    },
+    "ALDH3A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4700.0
+    },
+    "ALK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.0
+    },
+    "ALOX12": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 280.0
+    },
+    "ALOX12B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7800.0
+    },
+    "ALOX15": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 590.0
+    },
+    "ALOX15B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8300.0
+    },
+    "ALOX5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25.0
+    },
+    "AMD1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "AMPD1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 24.0
+    },
+    "AMPD2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16.0
+    },
+    "AMPD3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 75.0
+    },
+    "AMY1A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 34.0
+    },
+    "AMY2A": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "ANG": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 427000.0
+    },
+    "APEX1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "APP": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.9
+    },
+    "AQP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2700.0
+    },
+    "AR": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "ASH2L": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "ATIC": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 130.0
+    },
+    "ATP1A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 53.0
+    },
+    "ATP1A2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.6
+    },
+    "ATP1B1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.6
+    },
+    "AURKA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0155
+    },
+    "AURKB": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "AURKC": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.6
+    },
+    "AVPR1A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.0
+    },
+    "AVPR2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.25
+    },
+    "AXL": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 500.0
+    },
+    "B2M": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 47000.0
+    },
+    "BABAM1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2300.0
+    },
+    "BABAM2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2300.0
+    },
+    "BACE1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.12
+    },
+    "BACE2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.2
+    },
+    "BCHE": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.03
+    },
+    "BCL2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.7
+    },
+    "BCL2A1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.6
+    },
+    "BCL2L1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "BCL2L2-PABPN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 66.0
+    },
+    "BCL6": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11.0
+    },
+    "BCR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "BIRC2": {
+      "assay_type": "Ki",
+      "protac_role": "e3_ligand",
+      "source": "bindingdb",
+      "value_nm": 1.1
+    },
+    "BIRC3": {
+      "assay_type": "Ki",
+      "protac_role": "e3_ligand",
+      "source": "bindingdb",
+      "value_nm": 4.2
+    },
+    "BLK": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 32.4
+    },
+    "BMX": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.545
+    },
+    "BRAF": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.02
+    },
+    "BRCA2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25000.0
+    },
+    "BRCC3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2300.0
+    },
+    "BRD1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 619.0
+    },
+    "BRD2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0069
+    },
+    "BRD3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0027
+    },
+    "BRD4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0043
+    },
+    "BRDT": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.039
+    },
+    "BRIP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.13
+    },
+    "BRPF1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 114.0
+    },
+    "BRPF3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1010.0
+    },
+    "BRSK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 24200.0
+    },
+    "BTK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.55
+    },
+    "C1S": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 76500.0
+    },
+    "CA1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4053
+    },
+    "CA12": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.6
+    },
+    "CA13": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.5
+    },
+    "CA14": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.0
+    },
+    "CA2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.08
+    },
+    "CA3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 240.0
+    },
+    "CA4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.25
+    },
+    "CA5A": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.7
+    },
+    "CA5B": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.9
+    },
+    "CA6": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.56
+    },
+    "CA7": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.23
+    },
+    "CA9": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "CALM1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "CAMK2B": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 29700.0
+    },
+    "CAMK4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.01087
+    },
+    "CAMKK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 500.0
+    },
+    "CAPN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 74.0
+    },
+    "CAPN2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 150.0
+    },
+    "CARM1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 23.0
+    },
+    "CASP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.1
+    },
+    "CASP2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 231.0
+    },
+    "CASP3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.23
+    },
+    "CASP4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 380.0
+    },
+    "CASP5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 470.0
+    },
+    "CASP6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.0
+    },
+    "CASP7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.95
+    },
+    "CASP8": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.2
+    },
+    "CASP9": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 120.0
+    },
+    "CASR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60.0
+    },
+    "CBX7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "CCKAR": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.9
+    },
+    "CCKBR": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.22
+    },
+    "CCNA2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "CCNB1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.6
+    },
+    "CCND1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.7
+    },
+    "CCND3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 282.0
+    },
+    "CCNE1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "CCNH": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11.0
+    },
+    "CCNT1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "CDC25A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1000.0
+    },
+    "CDC25B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 200.0
+    },
+    "CDC42BPA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.9
+    },
+    "CDC42BPB": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 12.6
+    },
+    "CDC7": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "CDK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.23
+    },
+    "CDK2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.11
+    },
+    "CDK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9.0
+    },
+    "CDK4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.7
+    },
+    "CDK5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.1
+    },
+    "CDK5R1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.1
+    },
+    "CDK6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 71.0
+    },
+    "CDK7": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.56
+    },
+    "CDK9": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.29
+    },
+    "CES1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.5
+    },
+    "CFB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "CFD": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.0
+    },
+    "CHEK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.11
+    },
+    "CHEK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 80.0
+    },
+    "CHIA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 420.0
+    },
+    "CHIT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 13.0
+    },
+    "CHRM2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 30000.0
+    },
+    "CHRNA1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 30000.0
+    },
+    "CHRNA4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3000.0
+    },
+    "CHRNA7": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 200.0
+    },
+    "CHRNB2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11700.0
+    },
+    "CHUK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 79.0
+    },
+    "CLK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 51.0
+    },
+    "CLK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "CLK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 346.0
+    },
+    "CMA1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 17540.0
+    },
+    "CNR1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "CNR2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.12
+    },
+    "COPS5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 30000.0
+    },
+    "CPB2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1600.0
+    },
+    "CRBN": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60.0
+    },
+    "CREBBP": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21.0
+    },
+    "CSF1R": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "CSK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.4
+    },
+    "CSNK1A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 450.0
+    },
+    "CSNK1D": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 500.0
+    },
+    "CSNK1E": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 600.0
+    },
+    "CSNK2A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "CSNK2A2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "CTBP1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 370.0
+    },
+    "CTBP2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 745.0
+    },
+    "CTH": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 200000.0
+    },
+    "CTRC": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.0
+    },
+    "CTSB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.21
+    },
+    "CTSD": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.9
+    },
+    "CTSK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.003
+    },
+    "CTSL": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.04
+    },
+    "CTSS": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.13
+    },
+    "CTSV": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.063
+    },
+    "CXCL12": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15000.0
+    },
+    "CYP11B1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.3
+    },
+    "CYP11B2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "CYP17A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 27.0
+    },
+    "CYP19A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.00109662
+    },
+    "CYP1A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 390.0
+    },
+    "CYP1A2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9750.0
+    },
+    "CYP1B1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 74.3
+    },
+    "CYP24A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21.0
+    },
+    "CYP26A1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "CYP27B1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 53.0
+    },
+    "CYP2A13": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2100.0
+    },
+    "CYP2A6": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 80.0
+    },
+    "CYP2C19": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 80.0
+    },
+    "CYP2C9": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 220.0
+    },
+    "CYP2D6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1030.0
+    },
+    "CYP2E1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1300.0
+    },
+    "CYP3A4": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 40.0
+    },
+    "CYP51A1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 26.0
+    },
+    "DAO": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.0
+    },
+    "DAPK1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 79.0
+    },
+    "DBF4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "DCPS": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "DCTPP1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 85000.0
+    },
+    "DDAH1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2000.0
+    },
+    "DDB1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60.0
+    },
+    "DDO": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 855.0
+    },
+    "DDR1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.26
+    },
+    "DDR2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "DGAT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "DHFR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.6
+    },
+    "DHODH": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "DHX29": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "DNMT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 650.0
+    },
+    "DNMT3A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50500.0
+    },
+    "DOT1L": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "DPEP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "DPP3": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 200.0
+    },
+    "DPP4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "DPP7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 96.0
+    },
+    "DPP8": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "DPP9": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "DRD1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.69
+    },
+    "DRD2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.093
+    },
+    "DRD3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.48
+    },
+    "DRD4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "DUSP22": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50000.0
+    },
+    "DUSP3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4900.0
+    },
+    "DUSP5": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25.0
+    },
+    "DUT": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 135000.0
+    },
+    "DYRK1A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 213.0
+    },
+    "DYRK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1800.0
+    },
+    "ECE1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.8
+    },
+    "EED": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4
+    },
+    "EEF1AKMT4-ECE2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.2
+    },
+    "EEF2K": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25000.0
+    },
+    "EGFR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.003
+    },
+    "EGLN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 35.0
+    },
+    "EGLN2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.3
+    },
+    "EGLN3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.5
+    },
+    "EHMT2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1320.0
+    },
+    "EIF4A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "EIF4A2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "EIF4A3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 110.0
+    },
+    "ELANE": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.63
+    },
+    "ENO1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 37.9
+    },
+    "ENO2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 42.5
+    },
+    "EP300": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100.0
+    },
+    "EPHA2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.8
+    },
+    "EPHA3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "EPHA4": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 62.0
+    },
+    "EPHB3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 158000.0
+    },
+    "EPHB4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 40.0
+    },
+    "ERBB2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9.0
+    },
+    "ERBB4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 66.0
+    },
+    "ERN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 65.0
+    },
+    "ESR1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.02
+    },
+    "ESR2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.02
+    },
+    "ESRRA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 190.0
+    },
+    "ESRRG": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "EYA2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 800.0
+    },
+    "EZH1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50.0
+    },
+    "EZR": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21960.0
+    },
+    "F10": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.004
+    },
+    "F11": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.0
+    },
+    "F12": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.1
+    },
+    "F13A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 37000.0
+    },
+    "F2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.00065
+    },
+    "F7": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.35
+    },
+    "F8": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2100.0
+    },
+    "F9": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.2
+    },
+    "FAAH": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.45
+    },
+    "FABP1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.0
+    },
+    "FABP2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "FABP5": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 670.0
+    },
+    "FAP": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 175.0
+    },
+    "FASN": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.7
+    },
+    "FDPS": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "FECH": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 700.0
+    },
+    "FEN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16.9
+    },
+    "FFAR1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 40.0
+    },
+    "FGF1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4
+    },
+    "FGF2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 85.0
+    },
+    "FGFR1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.8
+    },
+    "FGFR2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.6
+    },
+    "FGFR3": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.4
+    },
+    "FGFR4": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 120.0
+    },
+    "FHIT": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 35.0
+    },
+    "FKBP1A": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.6
+    },
+    "FLT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.0
+    },
+    "FLT3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "FLT4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.0
+    },
+    "FN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "FNTA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.19
+    },
+    "FNTB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.86
+    },
+    "FOLH1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "FOXM1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3800.0
+    },
+    "FPR2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 34.0
+    },
+    "FRK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1300.0
+    },
+    "FTO": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 39240.0
+    },
+    "FURIN": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "FUT6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1800.0
+    },
+    "FUT7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60.0
+    },
+    "FYN": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "G6PD": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5200.0
+    },
+    "GABRA1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.19
+    },
+    "GABRA2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.7
+    },
+    "GABRA3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.1
+    },
+    "GABRA4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.1
+    },
+    "GABRA5": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.49
+    },
+    "GABRA6": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.1
+    },
+    "GABRB2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.19
+    },
+    "GABRB3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.49
+    },
+    "GABRG2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.19
+    },
+    "GART": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.0
+    },
+    "GBA1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.07
+    },
+    "GCGR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 34.0
+    },
+    "GCK": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 67.11
+    },
+    "GGPS1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100.0
+    },
+    "GHSR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "GIPR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 207.0
+    },
+    "GLA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.78
+    },
+    "GLB1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 940.0
+    },
+    "GLO1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 42800.0
+    },
+    "GLRX": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 91300.0
+    },
+    "GLUL": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.22
+    },
+    "GPBAR1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 95.0
+    },
+    "GPER1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9.0
+    },
+    "GPX1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 32700.0
+    },
+    "GRB2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 263000.0
+    },
+    "GRK2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 200.0
+    },
+    "GSK3A": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.08
+    },
+    "GSK3B": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "GSR": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 800.0
+    },
+    "GSTP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4000.0
+    },
+    "GUSB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100.0
+    },
+    "H6PD": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 18000.0
+    },
+    "HASPIN": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.019
+    },
+    "HCAR2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "HCK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "HDAC1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "HDAC10": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "HDAC11": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "HDAC2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.5
+    },
+    "HDAC3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.41
+    },
+    "HDAC4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "HDAC5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 92.0
+    },
+    "HDAC6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "HDAC7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 354.0
+    },
+    "HDAC8": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "HDAC9": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1024.0
+    },
+    "HEXA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100.0
+    },
+    "HEXB": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.69
+    },
+    "HIF1A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2000.0
+    },
+    "HIF1AN": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "HIPK2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9.5
+    },
+    "HNRNPA1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1700.0
+    },
+    "HPGDS": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21.0
+    },
+    "HPN": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.38
+    },
+    "HPRT1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 385.0
+    },
+    "HRH1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "HRH2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8511.0
+    },
+    "HRH3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.21
+    },
+    "HRH4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "HSD11B1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "HSD11B2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 550.0
+    },
+    "HSD17B1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "HSD17B2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 559.0
+    },
+    "HSD17B3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2700.0
+    },
+    "HSP90AA1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.04
+    },
+    "HSP90AA4P": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 140.0
+    },
+    "HSP90AB1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.0
+    },
+    "HSP90B1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 440.0
+    },
+    "HSPA1A": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50.0
+    },
+    "HSPA5": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60.0
+    },
+    "HTR1A": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "HTR1B": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1800.0
+    },
+    "HTR1D": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2000.0
+    },
+    "HTR2A": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.018
+    },
+    "HTR2B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "HTR2C": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0158
+    },
+    "HTR3A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 490.0
+    },
+    "HTR4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.0
+    },
+    "HTR6": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.29
+    },
+    "HTR7": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4
+    },
+    "HYAL1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25700.0
+    },
+    "IDH1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.9
+    },
+    "IDH2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 496.0
+    },
+    "IDO1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 41.0
+    },
+    "IGF1R": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "IKBKB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "IKBKE": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25.0
+    },
+    "IL10": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "IMPDH1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "IMPDH2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.5
+    },
+    "INSR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 51.0
+    },
+    "IRAK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "IRAK4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1400.0
+    },
+    "ITGA2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.0
+    },
+    "ITGA4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0372
+    },
+    "ITGA5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "ITGB1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0372
+    },
+    "ITGB7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.6
+    },
+    "ITK": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0269
+    },
+    "ITPKA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4300.0
+    },
+    "IYD": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 90.0
+    },
+    "JAK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.496
+    },
+    "JAK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.2
+    },
+    "JAK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.127
+    },
+    "KCNH2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 19.3
+    },
+    "KCNK2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60.0
+    },
+    "KDM1A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11.0
+    },
+    "KDM2A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2000.0
+    },
+    "KDM2B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9100.0
+    },
+    "KDM3A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 290.0
+    },
+    "KDM3B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15300.0
+    },
+    "KDM4A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 600.0
+    },
+    "KDM4C": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 170.0
+    },
+    "KDM4E": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1400.0
+    },
+    "KDM5A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.0
+    },
+    "KDM5B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "KDM5C": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 13.0
+    },
+    "KDM5D": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.0
+    },
+    "KDM6A": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2000.0
+    },
+    "KDM6B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 160.0
+    },
+    "KDR": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "KIF11": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.18
+    },
+    "KISS1R": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.12
+    },
+    "KIT": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "KITLG": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "KLK7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 700.0
+    },
+    "KLKB1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.3
+    },
+    "KMT2A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "KMT5A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "KMT5B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25.0
+    },
+    "KMT5C": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 144.0
+    },
+    "KYAT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 140000.0
+    },
+    "L3MBTL1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "L3MBTL3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "LCAT": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 28.0
+    },
+    "LCK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "LCN2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 12.0
+    },
+    "LDHA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "LDHB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "LGALS1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2200.0
+    },
+    "LGALS3": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 14.0
+    },
+    "LGALS7B": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21000.0
+    },
+    "LGALS8": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 500000.0
+    },
+    "LGALS9": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 47000.0
+    },
+    "LIG1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.24
+    },
+    "LOX": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1000.0
+    },
+    "LRRK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 160.0
+    },
+    "LTA4H": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "LYN": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "LYPLA1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 180.0
+    },
+    "LYPLA2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 120.0
+    },
+    "LYPLAL1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "MAN2A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50.0
+    },
+    "MAOA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "MAOB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.89
+    },
+    "MAP2K1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 13000.0
+    },
+    "MAP2K3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 304.0
+    },
+    "MAP2K6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 24000.0
+    },
+    "MAP2K7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50000.0
+    },
+    "MAP3K1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8100.0
+    },
+    "MAP3K10": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 45.0
+    },
+    "MAP3K11": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 12.0
+    },
+    "MAP3K5": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1000.0
+    },
+    "MAP3K7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11000.0
+    },
+    "MAP3K8": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.6
+    },
+    "MAP3K9": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 22.0
+    },
+    "MAP4K4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 503.0
+    },
+    "MAPK1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.0
+    },
+    "MAPK10": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "MAPK13": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3700.0
+    },
+    "MAPK14": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.047
+    },
+    "MAPK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.3
+    },
+    "MAPK7": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 80.0
+    },
+    "MAPK8": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "MAPK9": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "MAPKAPK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.0
+    },
+    "MAPKAPK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 210.0
+    },
+    "MAPKAPK5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 81.0
+    },
+    "MAPT": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 120.0
+    },
+    "MARK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2200.0
+    },
+    "MBOAT4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6000.0
+    },
+    "MBTD1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 78000.0
+    },
+    "MCHR1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.7
+    },
+    "MCL1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.9
+    },
+    "MDM2": {
+      "assay_type": "Ki",
+      "protac_role": "e3_ligand",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "MDM4": {
+      "assay_type": "IC50",
+      "protac_role": "e3_ligand",
+      "source": "bindingdb",
+      "value_nm": 2700.0
+    },
+    "MET": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "METAP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 370.0
+    },
+    "METAP2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.04
+    },
+    "MGAM": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 520.0
+    },
+    "MGLL": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7900.0
+    },
+    "MGST1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 32390.0
+    },
+    "MIF": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 190.0
+    },
+    "MINK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 942.0
+    },
+    "MKNK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2670.0
+    },
+    "MKNK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 45100.0
+    },
+    "MMP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.3
+    },
+    "MMP10": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.0
+    },
+    "MMP12": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.19
+    },
+    "MMP13": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "MMP14": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 26.0
+    },
+    "MMP2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "MMP25": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 900.0
+    },
+    "MMP3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "MMP7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 26.0
+    },
+    "MMP8": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "MMP9": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.26
+    },
+    "MNAT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 71.0
+    },
+    "MPO": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.01
+    },
+    "MRGPRX2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 140.0
+    },
+    "MST1R": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.52
+    },
+    "MT-CYB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.0
+    },
+    "MTAP": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.01
+    },
+    "MTOR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.08
+    },
+    "MYLK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 19000.0
+    },
+    "MYLK3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 28300.0
+    },
+    "NADSYN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21800.0
+    },
+    "NAMPT": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.07
+    },
+    "NCOR2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 70.0
+    },
+    "NHERF1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 400.0
+    },
+    "NMT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 62.0
+    },
+    "NNMT": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3900.0
+    },
+    "NOS1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 23.0
+    },
+    "NOS2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "NOS3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 34.0
+    },
+    "NQO1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.18
+    },
+    "NQO2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 18.1
+    },
+    "NR1H2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.4
+    },
+    "NR1H3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "NR1H4": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "NR1I2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "NR3C1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "NR3C2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.2
+    },
+    "NR5A1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "NR5A2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 12.0
+    },
+    "NSD1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "NSD2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "NSD3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "NT5E": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 190.0
+    },
+    "NTRK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "NTRK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 646.0
+    },
+    "NTSR1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4
+    },
+    "NUDT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 210.0
+    },
+    "OGA": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 23600.0
+    },
+    "OGG1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 220.0
+    },
+    "OPRD1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "OPRK1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.03
+    },
+    "OPRL1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.13
+    },
+    "OPRM1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 14.0
+    },
+    "OSBP2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 17.0
+    },
+    "P2RX7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 13.0
+    },
+    "P4HB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 156.0
+    },
+    "PAK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.7
+    },
+    "PAK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 12.8
+    },
+    "PAK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 19.3
+    },
+    "PAK4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 559.0
+    },
+    "PAK5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5600.0
+    },
+    "PAK6": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1000.0
+    },
+    "PAOX": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100.0
+    },
+    "PARG": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 26.0
+    },
+    "PARN": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 210000.0
+    },
+    "PARP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PARP10": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 329.0
+    },
+    "PARP12": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "PARP14": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1630.0
+    },
+    "PARP15": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 295.0
+    },
+    "PARP16": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4170.0
+    },
+    "PARP2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "PARP3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 890.0
+    },
+    "PARP4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 22600.0
+    },
+    "PAX2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1350.0
+    },
+    "PCSK9": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 760.0
+    },
+    "PDCL3": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16500.0
+    },
+    "PDE10A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.08
+    },
+    "PDE11A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "PDE1B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 300.0
+    },
+    "PDE1C": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "PDE2A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 800.0
+    },
+    "PDE3A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.11
+    },
+    "PDE3B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.049
+    },
+    "PDE4A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4
+    },
+    "PDE4B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.041
+    },
+    "PDE4C": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PDE4D": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.021
+    },
+    "PDE5A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.9
+    },
+    "PDE6C": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25000.0
+    },
+    "PDE7A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21300.0
+    },
+    "PDE7B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 990.0
+    },
+    "PDE8A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 500.0
+    },
+    "PDE9A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 680.0
+    },
+    "PDGFRA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.78
+    },
+    "PDGFRB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.5
+    },
+    "PDK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2070.0
+    },
+    "PDK2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 239.0
+    },
+    "PDK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2550.0
+    },
+    "PDK4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 280.0
+    },
+    "PDPK1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PGA4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50000.0
+    },
+    "PGD": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2530.0
+    },
+    "PGGT1B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.5
+    },
+    "PGR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.6
+    },
+    "PHF1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 82000.0
+    },
+    "PHF19": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 61000.0
+    },
+    "PHF23": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "PHF8": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7700.0
+    },
+    "PHGDH": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 560.0
+    },
+    "PI4KA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "PI4KB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "PIK3C2A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4860.0
+    },
+    "PIK3C2B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "PIK3C3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7940.0
+    },
+    "PIK3CA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.26
+    },
+    "PIK3CB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "PIK3CD": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.7
+    },
+    "PIK3CG": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.92
+    },
+    "PIK3R1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.7
+    },
+    "PIK3R2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11.0
+    },
+    "PIK3R5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.92
+    },
+    "PIM1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.6
+    },
+    "PIM2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.9
+    },
+    "PIM3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4
+    },
+    "PIN1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.0
+    },
+    "PLA2G1B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 19.0
+    },
+    "PLA2G2A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 24.0
+    },
+    "PLA2G5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 620.0
+    },
+    "PLAT": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.0
+    },
+    "PLAU": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.4
+    },
+    "PLAUR": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 400.0
+    },
+    "PLD1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.7
+    },
+    "PLD2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.0
+    },
+    "PLG": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.2
+    },
+    "PLK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.8
+    },
+    "PLK2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PLK3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PLK4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.6
+    },
+    "PNMT": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.1
+    },
+    "PNP": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.156
+    },
+    "POLB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 18200.0
+    },
+    "POLG": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 684000.0
+    },
+    "POLL": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3900.0
+    },
+    "PON1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9000.0
+    },
+    "PPARA": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "PPARD": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.58
+    },
+    "PPARG": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "PPIA": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 76.2
+    },
+    "PPIB": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2100.0
+    },
+    "PPIC": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "PPID": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2420.0
+    },
+    "PPIH": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "PPIL1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 29000.0
+    },
+    "PPP1R1A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "PPP5C": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 77.0
+    },
+    "PRDM9": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3600.0
+    },
+    "PRKAB1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PRKACA": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.1
+    },
+    "PRKAG1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PRKAR1A": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.72
+    },
+    "PRKCA": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.28
+    },
+    "PRKCB": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "PRKCD": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.14
+    },
+    "PRKCE": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.16
+    },
+    "PRKCG": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.6
+    },
+    "PRKCI": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16900.0
+    },
+    "PRKCQ": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.88
+    },
+    "PRKCZ": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.26
+    },
+    "PRKD1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 28.3
+    },
+    "PRKD2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 58.7
+    },
+    "PRKD3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 53.2
+    },
+    "PRKDC": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 47.0
+    },
+    "PRKG1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.0
+    },
+    "PRKG2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PRMT1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11.0
+    },
+    "PRMT3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 55.0
+    },
+    "PRMT5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 720.0
+    },
+    "PRMT6": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.8
+    },
+    "PRMT7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "PRMT8": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.3
+    },
+    "PROC": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 87.0
+    },
+    "PROK2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.8
+    },
+    "PROKR1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 22.0
+    },
+    "PROKR2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 102.0
+    },
+    "PRP4K": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16.0
+    },
+    "PRSS1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.2
+    },
+    "PSMA6": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6300.0
+    },
+    "PSMB5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 8.6
+    },
+    "PSMD14": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 340.0
+    },
+    "PTGDR2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.8
+    },
+    "PTGES": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1910.0
+    },
+    "PTGIR": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16.0
+    },
+    "PTGS1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 260.0
+    },
+    "PTGS2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.3
+    },
+    "PTK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1700.0
+    },
+    "PTK6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 130.0
+    },
+    "PTPA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "PTPN1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.4
+    },
+    "PTPN11": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 450.0
+    },
+    "PTPN13": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3700.0
+    },
+    "PTPN2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "PTPN4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 600.0
+    },
+    "PTPN6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1000.0
+    },
+    "PTPN7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 9300.0
+    },
+    "PTPRC": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 300.0
+    },
+    "PTPRF": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16540.0
+    },
+    "PTPRJ": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 18000.0
+    },
+    "PYGL": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.0
+    },
+    "QPCT": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60.0
+    },
+    "RAD51": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25000.0
+    },
+    "RAF1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "RAMAC": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 52800.0
+    },
+    "RARA": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "RARB": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "RARG": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.2
+    },
+    "RBBP4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 20.0
+    },
+    "RBBP5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "REN": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.067
+    },
+    "RET": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "RIOX1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "RIOX2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "RIPK1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 18.0
+    },
+    "RIPK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 38100.0
+    },
+    "RNASE1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 80000.0
+    },
+    "RNASE2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 26100.0
+    },
+    "RNASEH1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10600.0
+    },
+    "ROCK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "ROCK2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "RPS6KA1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "RPS6KA2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 18.0
+    },
+    "RPS6KA3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "RPS6KA4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3010.0
+    },
+    "RPS6KA5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "RPS6KA6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.0
+    },
+    "RUNX1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 700.0
+    },
+    "RXRA": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.0
+    },
+    "S1PR1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.08
+    },
+    "S1PR2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.4
+    },
+    "S1PR3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.4
+    },
+    "S1PR4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.7
+    },
+    "S1PR5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "SENP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1860.0
+    },
+    "SENP2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 250.0
+    },
+    "SENP6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4200.0
+    },
+    "SENP7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4300.0
+    },
+    "SERPINE1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.1
+    },
+    "SETD2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SETD6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SETD7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SETDB1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SF3B3": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.86
+    },
+    "SGK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 110000.0
+    },
+    "SHB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 900.0
+    },
+    "SIK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.5
+    },
+    "SIRT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 12700.0
+    },
+    "SIRT2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1000.0
+    },
+    "SIRT6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 33200.0
+    },
+    "SLC16A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.09
+    },
+    "SLC29A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.43
+    },
+    "SLC2A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 450.0
+    },
+    "SLC5A1": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 211.0
+    },
+    "SLC5A2": {
+      "assay_type": "EC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.1
+    },
+    "SLC6A2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "SLC6A3": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 6.1
+    },
+    "SLC6A4": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.1
+    },
+    "SMOX": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 550.0
+    },
+    "SMYD2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SMYD3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SNRNP200": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SOAT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5200.0
+    },
+    "SRC": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.15
+    },
+    "SRD5A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 550.0
+    },
+    "SRD5A2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.58
+    },
+    "SRPK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 5.9
+    },
+    "ST14": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.5
+    },
+    "ST3GAL1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 19000.0
+    },
+    "STAMBP": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4500.0
+    },
+    "STAT1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 31000.0
+    },
+    "STAT5A": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 12300.0
+    },
+    "STAT5B": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 340.0
+    },
+    "STK10": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.0
+    },
+    "STK16": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 295.0
+    },
+    "STK17A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 114.0
+    },
+    "STK17B": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "STK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 860.0
+    },
+    "STK4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "STS": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.5
+    },
+    "SULT1A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 35000.0
+    },
+    "SULT2A1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 76000.0
+    },
+    "SUV39H2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "SUZ12": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 20.0
+    },
+    "SYK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.1
+    },
+    "TACR1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.046
+    },
+    "TBK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "TBXAS1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 290.0
+    },
+    "TDP2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25.0
+    },
+    "TEC": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.679
+    },
+    "TEK": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "TGFBR1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4.0
+    },
+    "TGM1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1000.0
+    },
+    "TGM2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2.1
+    },
+    "TGM3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11000.0
+    },
+    "TGM6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2000.0
+    },
+    "THRA": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.041
+    },
+    "THRB": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.019
+    },
+    "TMPRSS2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.9
+    },
+    "TMPRSS6": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.13
+    },
+    "TNF": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 110.0
+    },
+    "TNK2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 15.0
+    },
+    "TNKS": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1500.0
+    },
+    "TNKS2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "TNNC1": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4200.0
+    },
+    "TOP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 20000.0
+    },
+    "TOP2A": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2800.0
+    },
+    "TP53BP1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 13000.0
+    },
+    "TPI1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "TPO": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 63.0
+    },
+    "TPPP": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 17.0
+    },
+    "TPSB2": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3.0
+    },
+    "TPX2": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.527
+    },
+    "TRIM24": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10000.0
+    },
+    "TRPV1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.3
+    },
+    "TTK": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 26.0
+    },
+    "TTL": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 25000.0
+    },
+    "TXK": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.131
+    },
+    "TYK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 7.0
+    },
+    "TYMP": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.3
+    },
+    "TYMS": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 30.0
+    },
+    "TYR": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1720.0
+    },
+    "UBA1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 10.2
+    },
+    "UCHL1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 2500.0
+    },
+    "UCHL3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 14100.0
+    },
+    "UCHL5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 16200.0
+    },
+    "UGT1A1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4100.0
+    },
+    "UGT1A4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 4900.0
+    },
+    "UGT1A6": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 19000.0
+    },
+    "UGT2B10": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 22000.0
+    },
+    "UGT2B7": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 60000.0
+    },
+    "UHRF1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "UMPS": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 41.0
+    },
+    "UNG": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1300.0
+    },
+    "USP15": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 11100.0
+    },
+    "USP2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3300.0
+    },
+    "UTY": {
+      "assay_type": "Kd",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 3500.0
+    },
+    "VDR": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.1
+    },
+    "VKORC1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1800.0
+    },
+    "VKORC1L1": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 52000.0
+    },
+    "WDR5": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "WDR77": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 100000.0
+    },
+    "WNK1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 1.0
+    },
+    "WNK2": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 50.0
+    },
+    "WNK3": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 377.0
+    },
+    "WNK4": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 187.0
+    },
+    "XDH": {
+      "assay_type": "Ki",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 0.0475
+    },
+    "XIAP": {
+      "assay_type": "Kd",
+      "protac_role": "e3_ligand",
+      "source": "bindingdb",
+      "value_nm": 5.0
+    },
+    "YES1": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 21000.0
+    },
+    "ZAP70": {
+      "assay_type": "IC50",
+      "protac_role": "other",
+      "source": "bindingdb",
+      "value_nm": 47.0
+    }
+  },
+  "meta": {
+    "description": "Gene-level known-ligand index derived from IPDB evidence.best_binding BindingDB records.",
+    "generated_at": "2026-06-30T22:50:36.367284+00:00",
+    "ligand_count": 870,
+    "snapshot_generated_at": "2026-06-30T18:23:03.839110+00:00",
+    "source": "BindingDB best_binding records from IPDB",
+    "source_file": "~/Downloads/Induced Proximity Database Project copy/public/ipdb-snapshot.json"
+  }
+}
